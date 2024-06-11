@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[parrucchiera]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT identity NOT NULL PRIMARY KEY, 
     [nome] varchar (255) NOT NULL, 
     [cognome] varchar (255 )NOT NULL, 
     [email] varchar (255) NOT NULL, 
