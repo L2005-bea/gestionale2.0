@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[dettagli appuntamento]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
-    [appuntamentID] INT NULL, 
-    [servizioID] INT NULL, 
-    [clienteID] INT NULL
+    [appuntamentID] INT NOT NULL, 
+    [servizioID] INT NOT NULL, 
+    [clienteID] INT NOT NULL
 )

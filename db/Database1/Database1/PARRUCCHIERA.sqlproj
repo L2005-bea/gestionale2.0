@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>Database1</Name>
+    <Name>PARRUCCHIERA</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{194a3482-36d7-4ce1-a0bf-a91d2d87c030}</ProjectGuid>
@@ -58,12 +58,15 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\clienti.sql" />
     <Build Include="dbo\Tables\appuntamento.sql" />
     <Build Include="dbo\Tables\dettagli appuntamento.sql" />
     <Build Include="dbo\Tables\servizi.sql" />
+    <Build Include="dbo\Tables\parrucchiera.sql" />
+    <None Include="data\data.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dev.publish.xml" />

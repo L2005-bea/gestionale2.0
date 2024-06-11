@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Table1]
+﻿CREATE TABLE [dbo].[Appuntamenti]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
     [clienteID] INT NOT NULL, 
