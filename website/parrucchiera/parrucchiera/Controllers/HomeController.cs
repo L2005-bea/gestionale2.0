@@ -27,6 +27,15 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
+		public IActionResult prodotti()
+		{
+			return View();
+		}
+		public IActionResult appuntamento()
+		{
+			return View();
+		}
+
 
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
