@@ -5,53 +5,20 @@
 
 <div style="display: flex;">
 	<h1>Prendi un appuntamento subito!</h1>
-	Scegli il tuo parrucchiere
+	<h2>cegli il tuo parrucchiere</h2><br>
 	<table border="9">
 		<thead>
-			<tr>
-				<th>Nome</th>
-				<th>Cognome</th>
-				<th>e-mail</th>
-				<th>ntelefono</th>
-			</tr>
-		</thead>
+			@foreach (var paruchiera in Model.parrucchiera)
+			{
 
-		<tr>
-			<td>Giacomo</td>
-			<td>Marchesi</td>
-			<td>'napoli@gg</td>
-			<td>3204879641</td>
-		</tr>
-		<tr>
-			<td>Sabaku</td>
-			<td>Maiku</td>
-			<td>ksksksks@lsls</td>
-			<td>ksksksks@lsls</td>
-			<td>154897628</td>
-		</tr>
-		<td>Luca</td>
-		<td>Bianchi</td>
-		<td>luca.bianchi@email.com</td>
-		<td>3802468112</td>
-		</tr>
-		<tr>
-			<td>Anna</td>
-			<td>Neri</td>
-			<td>anna.neri@email.com</td>
-			<td>2315978654</td>
-		</tr>
-		<tr>
-			<td>Marco</td>
-			<td>Gialli</td>
-			<td>marco.gialli@email.com</td>
-			<td>231497756</td>
-		</tr>
-		<tr>
-			<td>Laura</td>
-			<td>Rosa</td>
-			<td>laura.rosa@email.com</td>
-			<td>5645488356</td>
-		</tr>
+				<tr>
+					<td>@paruchiera.nome_parrucchiera</td>
+					<td>@paruchiera.cognome_parrucchiera</td>
+					<td>@paruchiera.email.parrucchiera</td>
+					<td>@paruchiera.ntel.parrucchiera</td>
+				</tr>
+			}
+
 
 	</table>
 </div>
