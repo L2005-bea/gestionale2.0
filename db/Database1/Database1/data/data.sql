@@ -30,3 +30,18 @@ values
 ('Laura', 'Thomas', 'laura.thomas@example.com', '890-123-4567'),
 ('James', 'Jackson', 'james.jackson@example.com', '901-234-5678'),
 ('Linda', 'White', 'linda.white@example.com', '012-345-6789');
+
+
+DECLARE @StartDate AS DATETIME = GETDATE()
+DECLARE @EndDate AS DATETIME = GETDATE()+365
+
+insert into Appuntamenti (clienteID,appuntamento_Data_tempo,parrucchieraID)
+select 
+	c.id,
+	DATEADD(HOUR,RAND(CHECKSUM(NEWID()))*(1+DATEDIFF(DAY, @StartDate, @EndDate)),
+	DATEADD(DAY, RAND(CHECKSUM(NEWID()))*(1+DATEDIFF(DAY, @StartDate, @EndDate)),@StartDate)),
+	p.Id 
+from clienti c
+cross join parrucchiera p
+
+
