@@ -27,10 +27,6 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-		public IActionResult prodotti()
-		{
-			return View();
-		}
 		public IActionResult appuntamento()
 		{
 			return View();
