@@ -23,5 +23,7 @@ SELECT * FROM Servizi";
 				return servizi;
 			}
 		}
+
+
 	}
 }

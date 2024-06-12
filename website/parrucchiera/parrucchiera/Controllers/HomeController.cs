@@ -24,15 +24,23 @@ namespace parrucchiera.Controllers
             return View();
         }
 
-        public IActionResult Servizi()
+        public IActionResult Parrucchiera()
         {
-            List<servizi> lista_di_servizi = new List<servizi>();
+            List<paruchiera> lista_di_parruchiera = new List<paruchiera>();
             SQLData db = new SQLData();
-			lista_di_servizi  = db.CaricaServizi();			
-			return View(new serviziViewModels(lista_di_servizi));
+			lista_di_paruchiera  = db.CaricaParuchiera();			
+			return View(new serviziViewModels(lista_di_paruchiera));
         }
+		public IActionResult Servizi()
+		{
+			List<servizi> lista_di_servizi = new List<servizi>();
+			SQLData db = new SQLData();
+			lista_di_servizi = db.CaricaServizi();
+			return View(new serviziViewModels(lista_di_servizi));
+		}
 		public IActionResult appuntamento()
 		{
+			
 			return View();
 		}
 
