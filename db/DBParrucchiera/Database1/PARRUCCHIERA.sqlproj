@@ -11,8 +11,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>Database1</RootNamespace>
-    <AssemblyName>Database1</AssemblyName>
+    <RootNamespace>DBParrucchiera</RootNamespace>
+    <AssemblyName>DBParrucchiera</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
