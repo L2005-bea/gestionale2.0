@@ -26,16 +26,16 @@ namespace parrucchiera.Controllers
 
         public IActionResult Parrucchiera()
         {
-            List<paruchiera> lista_di_parruchiera = new List<paruchiera>();
+            List<parrucchiera> lista_di_parrucchiera = new List<parrucchiera>();
             SQLData db = new SQLData();
-			lista_di_paruchiera  = db.CaricaParuchiera();			
-			return View(new serviziViewModels(lista_di_paruchiera));
+			lista_di_parrucchiera  = db.CaricaParrucchiera();			
+			return View(new serviziViewModels(lista_di_parrucchiera));
         }
 		public IActionResult Servizi()
 		{
 			List<servizi> lista_di_servizi = new List<servizi>();
 			SQLData db = new SQLData();
-			lista_di_servizi = db.CaricaServizi();
+			lista_di_servizi = db.GetCaricaServizi();
 			return View(new serviziViewModels(lista_di_servizi));
 		}
 		public IActionResult appuntamento()
@@ -49,7 +49,7 @@ namespace parrucchiera.Controllers
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new parrucchieraViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

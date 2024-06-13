@@ -6,7 +6,7 @@
 <div style="display: flex;">
 	<h1>Prendi un appuntamento subito!</h1>
 	<h2>cegli il tuo parrucchiere</h2><br>
-	<table border="9">
+	<table border="1">
 		<thead>
 			@foreach (var paruchiera in Model.parrucchiera)
 			{
@@ -15,7 +15,7 @@
 					<td>@paruchiera.nome_parrucchiera</td>
 					<td>@paruchiera.cognome_parrucchiera</td>
 					<td>@paruchiera.email.parrucchiera</td>
-					<td>@paruchiera.ntel.parrucchiera</td>
+					<td>@paruchiera.telefono.parrucchiera</td>
 				</tr>
 			}
 

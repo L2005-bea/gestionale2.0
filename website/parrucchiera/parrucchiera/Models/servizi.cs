@@ -1,9 +1,10 @@
-﻿namespace parrucchiera.Models
+﻿namespace 
+    servizi.Models
 {
-    public class parrucchieri
+    public class servizi
     {public int id { get; set; } 
-        public string nome_parrucchieri { get; set; }
-        public string descrizione_parrucchieri { get; set; }
+        public string nome_servizi { get; set; }
+        public string descrizione_servizi { get; set; }
         public float prezzo { get; set; }
 
     }
