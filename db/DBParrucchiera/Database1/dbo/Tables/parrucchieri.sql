@@ -4,5 +4,6 @@
     [nome] varchar (255) NOT NULL, 
     [cognome] varchar (255 )NOT NULL, 
     [email] varchar (255) NOT NULL, 
-    [telefono] varchar(255)  NOT NULL
+    [telefono] varchar(255)  NOT NULL,
+     [codice_immagine] varchar(255)  NOT NULL
 )
