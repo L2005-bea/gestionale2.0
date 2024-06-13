@@ -25,15 +25,15 @@ SELECT * FROM Servizi";
 				return servizi;
 			}
 			{
-				public List<parrucchieri> GetCaricaParrucchieri()
+				public List<parrucchieri> GetCaricaParrucchiera()
 				{
 					using (var connection = new SqlConnection(_connectionString))
 					{
 						string query = @"
 SELECT * FROM Parrucchiera";
-						var servizi = connection.Query<parrucchieri>(query)
+						var parrucchieri = connection.Query<parrucchieri>(query)
 									.ToList();
-						return servizi;
+						return parrucchieri;
 					}
 				}
 	}

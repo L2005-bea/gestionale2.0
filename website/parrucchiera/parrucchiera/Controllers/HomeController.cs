@@ -26,9 +26,9 @@ namespace parrucchiera.Controllers
 
         public IActionResult Parrucchiera()
         {
-            List<parrucchiera> lista_di_parrucchiera = new List<parrucchiera>();
+            List<Parrucchiera> lista_di_parrucchiera = new List<parrucchiera>();
             SQLData db = new SQLData();
-			lista_di_parrucchiera  = db.CaricaParrucchiera();			
+			lista_di_parrucchiera  = db.GetCaricaParrucchieri();			
 			return View(new serviziViewModels(lista_di_parrucchiera));
         }
 		public IActionResult Servizi()

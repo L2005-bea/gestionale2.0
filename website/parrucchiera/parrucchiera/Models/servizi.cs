@@ -1,5 +1,4 @@
-﻿namespace 
-    servizi.Models
+﻿namespace parrucchiera.Models
 {
     public class servizi
     {public int id { get; set; } 

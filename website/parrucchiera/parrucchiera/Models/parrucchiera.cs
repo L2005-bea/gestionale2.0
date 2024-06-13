@@ -1,11 +1,10 @@
-﻿namespace
-	parrucchiera.Models
+﻿namespace parrucchiera.Models
 
-{	public class parrucchieri
+{	public class parrucchiera
 {
 	public int id { get; set; }
-	public string nome_parrucchieri { get; set; }
-	public string cognome_parrucchieri { get; set; }
+	public string nome{ get; set; }
+	public string cognome{ get; set; }
 	public string email { get; set; }
 	public string telefono { get; set; }
 
