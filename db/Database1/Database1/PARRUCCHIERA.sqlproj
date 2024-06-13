@@ -65,7 +65,7 @@
     <Build Include="dbo\Tables\appuntamenti.sql" />
     <Build Include="dbo\Tables\dettagli appuntamento.sql" />
     <Build Include="dbo\Tables\servizi.sql" />
-    <Build Include="dbo\Tables\parrucchiera.sql" />
+    <Build Include="dbo\Tables\parrucchieri.sql" />
     <None Include="data\data.sql" />
   </ItemGroup>
   <ItemGroup>

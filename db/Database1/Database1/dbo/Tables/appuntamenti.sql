@@ -5,7 +5,7 @@
     [appuntamento_Data_tempo]  DATETIME NOT NULL, 
     [parrucchieraID] INT NOT NULL,
    CONSTRAINT FK_appuntamenti_clienteid FOREIGN KEY ([clienteID]) REFERENCES [dbo].[clienti]([Id]),
-   CONSTRAINT FK_appuntamenti_parrucchieraID FOREIGN KEY ([parrucchieraID]) REFERENCES [dbo].[parrucchiera]([Id])
+   CONSTRAINT FK_appuntamenti_parrucchieraID FOREIGN KEY ([parrucchieraID]) REFERENCES [dbo].[parrucchieri]([Id])
    
    
 

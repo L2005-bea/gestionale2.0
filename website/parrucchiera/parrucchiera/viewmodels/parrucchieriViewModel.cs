@@ -1,16 +1,13 @@
-﻿
-using parrucchiera.Models;
-
-namespace Paruchiera.viewmodels
+﻿using parrucchiera.Models;
+namespace parrucchiera.viewmodels
 {
-	public class parrucchieriViewModels
-	{
-		public List<parrucchiera> Parrucchiera { get; set; }
+    public class parrucchieriViewModels
+    {
+        public List<parrucchieri> parrucchieri { get; set; }
 
-		public parrucchieriViewModels(List<Parrucchiera> Parrucchiera) => this.Parrucchiera = Parrucchiera;
-	}
-
-	public class Parrucchiera
-	{
-	}
+        public parrucchieriViewModels(List<parrucchieri> parrucchieri)
+        {
+            this.parrucchieri = parrucchieri;
+        }
+    }
 }

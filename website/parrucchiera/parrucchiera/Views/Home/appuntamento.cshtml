@@ -1,21 +1,22 @@
 ﻿@{
+	@model parrucchiera.viewmodels.parrucchieriViewModels;
 	ViewData["Title"] = "Appuntamento";
 }
 <h1>@ViewData["Title"]</h1>
 
 <div style="display: flex;">
 	<h1>Prendi un appuntamento subito!</h1>
-	<h2>cegli il tuo parrucchiere</h2><br>
+	<h2>scegli il tuo parrucchiere</h2><br>
 	<table border="1">
 		<thead>
-			@foreach (var paruchiera in Model.parrucchiera)
+			@foreach (var paruchiera in Model.parrucchieri)
 			{
 
 				<tr>
-					<td>@paruchiera.nome_parrucchiera</td>
-					<td>@paruchiera.cognome_parrucchiera</td>
-					<td>@paruchiera.email.parrucchiera</td>
-					<td>@paruchiera.telefono.parrucchiera</td>
+					<td>@paruchiera.nome</td>
+					<td>@paruchiera.cognome</td>
+					<td>@paruchiera.email</td>
+					<td>@paruchiera.telefono</td>
 				</tr>
 			}
 

@@ -9,7 +9,7 @@ values
   ('Taglio lungo scalato', 'Taglio lungo con scalatura per un look dinamico', 45),
   ('Mèches', 'Colore mèches per illuminare il viso', 55)
 
-insert into parrucchiera
+insert into parrucchieri
 values 
 ('giacomo','marchesi','napoli@gg', 'fjfjfjf'),
 ('sabaku','maiku', 'ksksksks@lsls','20'),

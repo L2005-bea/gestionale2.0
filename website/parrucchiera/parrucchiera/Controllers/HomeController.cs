@@ -1,8 +1,10 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using parrucchiera.Models;
 using parrucchiera.viewmodels;
-using Parrucchiera.Data;
+using parrucchiera.Data;
+using System.Diagnostics;
+
+
 namespace parrucchiera.Controllers
 {
     public class HomeController : Controller
@@ -24,13 +26,6 @@ namespace parrucchiera.Controllers
             return View();
         }
 
-        public IActionResult Parrucchiera()
-        {
-            List<Parrucchiera> lista_di_parrucchiera = new List<parrucchiera>();
-            SQLData db = new SQLData();
-			lista_di_parrucchiera  = db.GetCaricaParrucchieri();			
-			return View(new serviziViewModels(lista_di_parrucchiera));
-        }
 		public IActionResult Servizi()
 		{
 			List<servizi> lista_di_servizi = new List<servizi>();
@@ -40,16 +35,16 @@ namespace parrucchiera.Controllers
 		}
 		public IActionResult appuntamento()
 		{
-			
-			return View();
+            List<parrucchieri> lista_di_parrucchieri = new List<parrucchieri>();
+            SQLData db = new SQLData();
+            lista_di_parrucchieri = db.GetCaricaParrucchieri();
+            return View(new parrucchieriViewModels(lista_di_parrucchieri));
 		}
 
-
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new parrucchieraViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
