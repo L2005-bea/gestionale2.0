@@ -3,10 +3,19 @@
 	ViewData["Title"] = "Appuntamento";
 }
 <h1>@ViewData["Title"]</h1>
-
-<div style="display: flex;">
+<h1>Prendi un appuntamento subito!</h1>
+<br>
+<h2>Scegli il tuo parrucchiere</h2></br>
 	<h1>Prendi un appuntamento subito!</h1>
 	<h2>scegli il tuo parrucchiere</h2><br>
+<div class="card">
+	<img src="img_avatar1.png" alt="Avatar">
+	<div class="container">
+		<h4><b>John Doe</b></h4>
+		<p>Architect & Engineer</p>
+	</div>
+</div>
+
 	<table border="1">
 		<thead>
 			@foreach (var paruchiera in Model.parrucchieri)
@@ -17,6 +26,7 @@
 					<td>@paruchiera.cognome</td>
 					<td>@paruchiera.email</td>
 					<td>@paruchiera.telefono</td>
+					<td>@paruchiera.codice_immagine</td>
 				</tr>
 			}
 
