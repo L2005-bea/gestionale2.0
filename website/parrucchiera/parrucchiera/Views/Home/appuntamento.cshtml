@@ -1,21 +1,49 @@
 ﻿@{
-	@model parrucchiera.viewmodels.parrucchieriViewModels;
-	ViewData["Title"] = "Appuntamento";
+    @model parrucchiera.viewmodels.parrucchieriViewModels;
+    ViewData["Title"] = "Appuntamento";
 }
 <h1>@ViewData["Title"]</h1>
+<div>
+    <h1>Prendi un appuntamento subito!</h1>
+    <h2>Scegli il tuo parrucchiere</h2>
 
-	<p><h1>Prendi un appuntamento subito!</h1></p>
 
-	<p><h2>Scegli il tuo parrucchiere</h2></p>
-	<div class="card">
-		<img src="~/images/avatar1.jpg.png" width="200" height="230" />
-		
-					<h4><b>Giacomo Marchesi</b></h4>
-					<p>parrucchiere</p>
-					<p> napoli@ggl</p>
-					<p>3383649760</p>
-					<button>Prenota ora </button>
-				</div>
-	</div>
-			 
-			
+    <div class="card-list-container" >
+        <div class="custom-card">
+            <img src="~/images/avatar1.jpg.png" width="200" height="230" />
+            <div class="custom-container">
+                <h4><b>Giacomo Marchesi</b></h4>
+                <p>parrucchiere</p>
+                <p> napoli@ggl</p>
+                <p>3383649760</p>
+            </div>
+
+            <button>Prenota ora </button>
+        </div>
+
+
+        <div class="custom-card">
+            <img src="~/images/avatar1.jpg.png" width="200" height="230" />
+            <div class="custom-container">
+                <h4><b>Giacomo Marchesi</b></h4>
+                <p>parrucchiere</p>
+                <p> napoli@ggl</p>
+                <p>3383649760</p>
+            </div>
+
+            <button>Prenota ora </button>
+        </div>
+
+        <div class="custom-card">
+            <img src="~/images/avatar1.jpg.png" width="200" height="230" />
+            <div class="custom-container">
+                <h4><b>Giacomo Marchesi</b></h4>
+                <p>parrucchiere</p>
+                <p> napoli@ggl</p>
+                <p>3383649760</p>
+            </div>
+
+            <button>Prenota ora </button>
+        </div>
+    </div>
+</div>
