@@ -48,7 +48,12 @@ body {
 .custom-container {
     padding: 2px 2px;
 }
-
 .card-list-container {
-    display: flex;
+    display: grid;
+ 
+ 
+    padding: 20px; /* Padding around the container */
+    background-color: #f0f0f0; /* Light background color */
+
+    gap: 20px; /* Space between cards */
 }
