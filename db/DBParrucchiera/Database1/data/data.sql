@@ -9,14 +9,16 @@ values
   ('Taglio lungo scalato', 'Taglio lungo con scalatura per un look dinamico', 45),
   ('Mèches', 'Colore mèches per illuminare il viso', 55)
 
-insert into parrucchieri
-values 
-('giacomo','marchesi','napoli@gg', '3383649760''avatar1.png'),
-('sabaku','maiku', 'ksksksks@lsls','3398897893''avatar2.png'),
-('Luca', 'Bianchi', 'luca.bianchi@email.com', '3802468112''avatar3.png'),
-( 'Anna', 'Neri', 'anna.neri@email.com', '3661122334''avatar4.png'),
-('Marco', 'Gialli', 'marco.gialli@email.com', '3456789012''avatar5.png'),
- ('Laura', 'Rosa', 'laura.rosa@email.com', '3209876543''avatar6.png')
+INSERT INTO parrucchieri (nome, cognome, email, telefono, codice_immagine)
+VALUES 
+('giacomo','marchesi','napoli@gg', '33836760','avatar1.png'),
+('sabaku','maiku', 'ksksksks@ls','33988973','avatar2.png'),
+('Luca', 'Bianchi', 'luca.bianchi@email.com', '3802468112','avatar3.png'),
+( 'Anna', 'Neri', 'anna.neri@email.com', '3661122334','avatar4.png'),
+('Marco', 'Gialli', 'marco.gialli@email.com', '3456789012','avatar5.png'),
+ ('Laura', 'Rosa', 'laura.rosa@email.com', '3209876543','avatar6.png')
+
+
 
  insert into clienti
  values
