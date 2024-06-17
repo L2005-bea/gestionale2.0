@@ -1,15 +1,36 @@
 ﻿@{
 
-    @model parrucchiera.viewmodels.parrucchieriViewModels;
-    ViewData["Title"] = "Appuntamenti"
+	@model parrucchiera.viewmodels.parrucchieriViewModels;
+	ViewData["Title"] = "CreaParrucchieri";
 }
 <script type="text/javascript">
-    function redirectToServizi() {
-        window.location.href = "page(" / Servizi.cshtml")";
-    }
+	function redirectToServizi() {
+		window.location.href = "page(" / CreaParrucchieri.cshtml")";
+	}
 </script>
-<h1>@ViewData["Title"]</h1>
 <div>
-   
+	@using (Html.BeginForm("CreaParrucchieri", "Home", FormMethod.Post))
+{
+    <table class="table">
+        <tr>
+            <th>@Html.LabelFor(model => model.parrucchiere.nome)</th>
+            <td>@Html.EditorFor(model => model.parrucchiere.nome)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(model => model.parrucchiere.cognome)</th>
+            <td>@Html.EditorFor(model => model.parrucchiere.cognome)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(model => model.parrucchiere.email)</th>
+            <td>@Html.EditorFor(model => model.parrucchiere.email)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(model => model.parrucchiere.telefono)</th>
+            <td>@Html.EditorFor(model => model.parrucchiere.telefono)</td>
+        </tr>
+    </table>
+    <input id="appuntamento" type="submit" value="Save" />
+}
 
-        </table>
+
+	</div>
