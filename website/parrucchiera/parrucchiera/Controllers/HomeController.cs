@@ -41,6 +41,18 @@ namespace parrucchiera.Controllers
             return View(new parrucchieriViewModels(lista_di_parrucchieri));
 		}
 
+        [HttpPost]
+        public IActionResult appuntamento(parrucchieri parrucchiere )
+        {
+            SQLData db = new SQLData();
+
+            db.CreaParrucchiere(parrucchiere);
+            List<parrucchieri> lista_di_parrucchieri = new List<parrucchieri>();
+ 
+            lista_di_parrucchieri = db.GetCaricaParrucchieri();
+            return View(new parrucchieriViewModels(lista_di_parrucchieri));
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
