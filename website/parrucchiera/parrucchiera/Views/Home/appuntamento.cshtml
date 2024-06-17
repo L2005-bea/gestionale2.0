@@ -3,12 +3,42 @@
     @model parrucchiera.viewmodels.parrucchieriViewModels;
     ViewData["Title"] = "Appuntamento";
 }
-
+<script type="text/javascript">
+    function redirectToServizi() {
+        window.location.href = "page("/Servizi.cshtml")";
+    }
+</script>
 <h1>@ViewData["Title"]</h1>
 <div>
     <h1>Prendi un appuntamento subito!</h1>
     <h2>Scegli il tuo parrucchiere</h2>
+    @using (Html.BeginForm("appuntamento", "Home", FormMethod.Post))
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.nome)
+                    @Html.EditorFor(model => Model.parrucchiere.nome)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.cognome)
+                    @Html.EditorFor(model => Model.parrucchiere.cognome)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.email)
+                    @Html.EditorFor(model => Model.parrucchiere.email)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.telefono)
+                    @Html.EditorFor(model => Model.parrucchiere.telefono)
+                </th>
+            </tr>
 
+        </table>
+        <p>
+            <input id="appuntamento" type="submit" value="Save" />
+        </p>
+    }
     <div class="card-list-container">
 
 
@@ -20,10 +50,10 @@
                     <h4><b>@parrucchiere.nome @parrucchiere.cognome</b></h4>
                     <p>parrucchiere</p>
                     <p>@parrucchiere.email</p>
-                    <p>3383649760</p>
+                    <p>@parrucchiere.telefono</p>
                 </div>
 
-                <button>Prenota ora </button>
+                <button onclick="redirectToServizi()">prenota </button>
             </div>
         }
 

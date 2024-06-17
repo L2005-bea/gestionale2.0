@@ -2,7 +2,7 @@ insert into servizi
 values 
 ('acconciatura','sabaku',50),
 ('acconciatura','maiku',20),
- ('Taglio corto', 'Taglio di capelli corto alla moda', 30.),
+ ('Taglio corto', 'Taglio di capelli corto alla moda', 30),
   ( 'Colore Balayage', 'Balayage per un look naturale e luminoso', 50),
   ( 'Trecce africane', 'Acconciatura con trecce a cornrows', 60),
   ('Extension capelli lisci', 'Extension per capelli lisci con clip', 70),
