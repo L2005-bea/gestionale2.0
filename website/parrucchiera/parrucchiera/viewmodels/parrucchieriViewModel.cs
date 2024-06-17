@@ -5,9 +5,10 @@ namespace parrucchiera.viewmodels
     {
         public List<parrucchieri> parrucchieri { get; set; }
        
+        public parrucchieri parrucchiere { get; set; }
 
 
-	public parrucchieriViewModels(List<parrucchieri> parrucchieri)
+        public parrucchieriViewModels(List<parrucchieri> parrucchieri)
         {
             this.parrucchieri = parrucchieri;
         }
