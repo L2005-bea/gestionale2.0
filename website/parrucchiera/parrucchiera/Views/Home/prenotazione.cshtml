@@ -3,11 +3,6 @@
     @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
 }
-<script type="text/javascript">
-    function redirectToServizi() {
-        window.location.href = "page(" / prenotazione.cshtml")";
-    }
-</script>
 <h1>@ViewData["Title"]</h1>
 <div>
     <h1>Prendi una prenotazione subito!</h1>
@@ -15,21 +10,7 @@
     <div>
         @using (Html.BeginForm("CreaAppuntamento", "Home", FormMethod.Post))
         {
-            <table class="table">
-                <tr>
-                    <th>@Html.LabelFor(model => model.prenotazione.clienteID)</th>
-                    <td>@Html.EditorFor(model => model.prenotazione.clienteID)</td>
-                </tr>
-                <tr>
-                    <th>@Html.LabelFor(model => model.prenotazione.appuntamento_Data_tempo)</th>
-                    <td>@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo)</td>
-                </tr>
-                <tr>
-                    <th>@Html.LabelFor(model => model.parrucchiere.email)</th>
-                    <td>@Html.EditorFor(model => model.parrucchiere.email)</td>
-                </tr>
-              
-            </table>
+         
             <input id="appuntamento" type="submit" value="Save" />
         }
 

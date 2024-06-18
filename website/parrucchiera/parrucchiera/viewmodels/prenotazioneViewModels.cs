@@ -9,7 +9,7 @@ namespace parrucchiera.viewmodels
 
         public PrenotazioneViewModels(List<prenotazione> prenotazione)
         {
-            this.Prenotazione = prenotazione;
+            this.prenotazione = prenotazione;
         }
 
 

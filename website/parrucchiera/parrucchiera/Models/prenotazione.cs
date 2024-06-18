@@ -1,4 +1,4 @@
-﻿namespace prenotazione.Models
+﻿namespace parrucchiera.Models
 {
 	public class prenotazione
 	{
