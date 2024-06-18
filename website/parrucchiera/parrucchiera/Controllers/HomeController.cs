@@ -20,12 +20,21 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-
+        public IActionResult prenotazione()
+        {
+            return View();
+        }
         public IActionResult Storia()
         {
             return View();
         }
-
+        public IActionResult appuntamento()
+        {
+            List<prenotazione> lista_di_prenotazione = new List<prenotazione>();
+            SQLData db = new SQLData();
+            lista_di_prenotazione = db.GetCaricaappuntamento();
+            return View(new prenotazioneViewModels(lista_di_prenotazione));
+        }
         public IActionResult Servizi()
         {
             List<servizi> lista_di_servizi = new List<servizi>();

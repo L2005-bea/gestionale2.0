@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\CreaParucchieri.cshtml" />
+    <Content Remove="Views\Home\prenotazione.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,10 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\Home\CreaParucchieri.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\Home\prenotazione.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
