@@ -14,13 +14,14 @@
 	<h2>Scegli il tuo servizio:</h2>
 	 @foreach (var servizi in Model.servizi)
         {
-            <div class="custom-card">
+        <div class="pricing-table">
                 <div class="custom-container">
                 <h4><b>@servizi.nome_servizio  @servizi.descrizione_servizio</b></h4>
                     <p>servizi</p>
                 <p>@servizi.prezzo €</p>
                    
                 </div>
+          
         </div>
         }
 	
