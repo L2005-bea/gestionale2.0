@@ -43,7 +43,7 @@ namespace parrucchiera.Controllers
 
         [HttpPost]
         public IActionResult appuntamento(parrucchieri parrucchiere)
-        {
+      {
             SQLData db = new SQLData();
 
             db.CreaParrucchiere(parrucchiere);

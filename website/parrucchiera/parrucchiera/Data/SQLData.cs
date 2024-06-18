@@ -1,6 +1,8 @@
 ﻿using parrucchiera.Models;
 using System.Data.SqlClient;
 using Dapper;
+using Microsoft.AspNetCore.Mvc;
+using parrucchiera.viewmodels;
 namespace parrucchiera.Data
 {
     public class SQLData
@@ -23,8 +25,8 @@ SELECT * FROM Servizi";
                 return servizi;
             }
         }
-
-        public List<parrucchieri> GetCaricaParrucchieri()
+		
+		public List<parrucchieri> GetCaricaParrucchieri()
         {
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -33,7 +35,19 @@ SELECT * FROM Parrucchieri";
                 var parrucchieri = connection.Query<parrucchieri>(query)
                             .ToList();
                 return parrucchieri;
-            }
+			}
         }
-    }
+
+		public void CreaParrucchiere(parrucchieri parrucchiere)
+		{
+			using (var connection = new SqlConnection(_connectionString))
+			{
+				string query = @"
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare)";
+				var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
+
+
+			}
+		}
+	}
 }
