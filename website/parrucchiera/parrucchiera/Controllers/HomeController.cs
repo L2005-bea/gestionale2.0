@@ -33,7 +33,7 @@ namespace parrucchiera.Controllers
             List<prenotazione> lista_di_prenotazione = new List<prenotazione>();
             SQLData db = new SQLData();
             lista_di_prenotazione = db.GetCaricaprenotazione();
-            return View(new prenotazioneViewModels(lista_di_prenotazione));
+            return View(new PrenotazioneViewModels(lista_di_prenotazione));
         }
         public IActionResult Servizi()
         {

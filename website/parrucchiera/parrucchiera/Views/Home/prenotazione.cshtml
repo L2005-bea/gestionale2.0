@@ -1,6 +1,6 @@
 ﻿@@{
 
-    @model prenotazione.viewmodels.prenotazioneViewModels;
+    @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
 }
 <script type="text/javascript">
@@ -21,8 +21,8 @@
                     <td>@Html.EditorFor(model => model.prenotazione.clienteID)</td>
                 </tr>
                 <tr>
-                    <th>@Html.LabelFor(model => model.prenotazione.appuntamento_Dataa_tempo)</th>
-                    <td>@Html.EditorFor(model => model.prenotazione.appuntamento_Dataa_tempo)</td>
+                    <th>@Html.LabelFor(model => model.prenotazione.appuntamento_Data_tempo)</th>
+                    <td>@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo)</td>
                 </tr>
                 <tr>
                     <th>@Html.LabelFor(model => model.parrucchiere.email)</th>
