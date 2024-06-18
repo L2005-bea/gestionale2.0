@@ -4,6 +4,7 @@ using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using parrucchiera.viewmodels;
 using System.Security.Cryptography.X509Certificates;
+using prenotazione.Models;
 namespace parrucchiera.Data
 {
     public class SQLData
@@ -38,8 +39,19 @@ SELECT * FROM Parrucchieri";
                 return parrucchieri;
 			}
         }
+        public List<prenotazione> GetCaricaprenotazione()
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                string query = @"
+SELECT * FROM Appuntamento";
+                var prenotazioni = connection.Query<prenotazione>(query)
+                            .ToList();
+                return prenotazione;
+            }
+        }
 
-		public void CreaParrucchiere(parrucchieri parrucchiere)
+        public void CreaParrucchiere(parrucchieri parrucchiere)
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{

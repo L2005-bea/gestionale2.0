@@ -28,11 +28,11 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-        public IActionResult appuntamento()
+        public IActionResult prenotazioni()
         {
             List<prenotazione> lista_di_prenotazione = new List<prenotazione>();
             SQLData db = new SQLData();
-            lista_di_prenotazione = db.GetCaricaappuntamento();
+            lista_di_prenotazione = db.GetCaricaprenotazione();
             return View(new prenotazioneViewModels(lista_di_prenotazione));
         }
         public IActionResult Servizi()
@@ -42,7 +42,7 @@ namespace parrucchiera.Controllers
             lista_di_servizi = db.GetCaricaServizi();
             return View(new serviziViewModels(lista_di_servizi));
         }
-        public IActionResult appuntamento()
+        public IActionResult Appuntamento()
         {
             List<parrucchieri> lista_di_parrucchieri = new List<parrucchieri>();
             SQLData db = new SQLData();

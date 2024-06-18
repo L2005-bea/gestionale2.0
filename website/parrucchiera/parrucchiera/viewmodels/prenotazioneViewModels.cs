@@ -1,19 +1,16 @@
 ﻿using parrucchiera.Models;
-using System.Collections.Generic;
 
-namespace parrucchiera.ViewModels
+namespace prenotazione.viewmodels
 {
-    public class PrenotazioneViewModel
+    public class prenotazioneViewModels
     {
-        public List<Prenotazione> Prenotazioni { get; set; }
+        public List<prenotazione> prenotazione { get; set; }
 
-        public PrenotazioneViewModel(List<Prenotazione> prenotazioni)
+        public prenotazione parrucchiere { get; set; }
+
+        public prenotazione(List<prenotazione> prenotazione)
         {
-            this.Prenotazioni = prenotazioni;
+            this.prenotazione = prenotazione;
         }
-    }
-
-    public class Prenotazione
-    {
     }
 }

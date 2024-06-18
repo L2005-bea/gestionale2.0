@@ -1,11 +1,12 @@
-﻿using parrucchiera.Models;
+﻿
+using parrucchiera.Models;
 namespace parrucchiera.viewmodels
 {
     public class serviziViewModels
     {
         public List<servizi> servizi { get; set; }
 
-            public serviziViewModels (List<servizi> servizi)
+        public serviziViewModels(List<servizi> servizi)
         {
             this.servizi = servizi;
         }
