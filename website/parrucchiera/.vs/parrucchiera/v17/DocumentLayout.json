@@ -3,78 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\prenotazione.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\prenotazione.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\models\\parrucchieri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\models\\parrucchieri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\dataora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\dataora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\creaparucchieri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\creaparucchieri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\appuntamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\appuntamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\prenotazione.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\prenotazione.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\prenotazione.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\prenotazione.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\creaparucchieri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\creaparucchieri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\prenotazioneviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\viewmodels\\prenotazioneviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\viewmodels\\serviziviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\parrucchieriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\viewmodels\\parrucchieriviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\viewmodels\\serviziviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\dataora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\dataora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\servizi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\appuntamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\appuntamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\prenotazione.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\home\\prenotazione.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\parrucchiera.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -144,21 +130,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
-          "SelectedChildIndex": 6,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "DocumentIndex": 9,
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "parrucchiera\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T12:20:57.327Z",
               "IsPinned": true,
@@ -166,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\Error.cshtml",
@@ -175,7 +157,8 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-17T08:01:01.347Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -184,24 +167,29 @@
             {
               "$type": "Bookmark",
               "Name": "ST:917190129:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "Name": "ST:917190129:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:290682318:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "DocumentIndex": 1,
+              "Title": "SQLData.cs",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Data\\SQLData.cs",
+              "RelativeDocumentMoniker": "parrucchiera\\Data\\SQLData.cs",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Data\\SQLData.cs",
+              "RelativeToolTip": "parrucchiera\\Data\\SQLData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:28:02.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "prenotazione.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\prenotazione.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\prenotazione.cshtml",
               "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\prenotazione.cshtml",
               "RelativeToolTip": "parrucchiera\\Views\\Home\\prenotazione.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-18T07:34:16.262Z",
               "EditorCaption": ""
@@ -214,92 +202,53 @@
               "RelativeDocumentMoniker": "parrucchiera\\Models\\parrucchieri.cs",
               "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\parrucchieri.cs",
               "RelativeToolTip": "parrucchiera\\Models\\parrucchieri.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T10:35:02.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "parrucchiera\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Controllers\\HomeController.cs",
               "RelativeToolTip": "parrucchiera\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAASAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAIA4wCAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T12:49:45.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "prenotazione.cs",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\prenotazione.cs",
-              "RelativeDocumentMoniker": "parrucchiera\\Models\\prenotazione.cs",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\prenotazione.cs",
-              "RelativeToolTip": "parrucchiera\\Models\\prenotazione.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:13:59.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataOra.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\DataOra.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\DataOra.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\DataOra.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\DataOra.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "parrucchiera\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "parrucchiera\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T07:38:15.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "Title": "Servizi.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Servizi.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Servizi.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Servizi.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\Servizi.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T13:07:55.101Z",
+              "WhenOpened": "2024-06-17T07:15:24.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAZAAAA",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "parrucchiera\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "parrucchiera\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:19:30.839Z",
+              "WhenOpened": "2024-06-17T07:15:26.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:19:30.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CreaParucchieri.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\CreaParucchieri.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\CreaParucchieri.cshtml",
@@ -307,14 +256,90 @@
               "RelativeToolTip": "parrucchiera\\Views\\Home\\CreaParucchieri.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T12:17:15.622Z"
+              "WhenOpened": "2024-06-17T12:17:15.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "DocumentIndex": 8,
-              "DocumentIndex": 4,
-              "WhenOpened": "2024-06-12T12:28:02.096Z"
+              "DocumentIndex": 9,
+              "Title": "prenotazioneViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
+              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
+              "RelativeToolTip": "parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:12:08.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "serviziViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziViewModels.cs",
+              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\serviziViewModels.cs",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziViewModels.cs",
+              "RelativeToolTip": "parrucchiera\\viewmodels\\serviziViewModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:47:03.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "prenotazione.cs",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\prenotazione.cs",
+              "RelativeDocumentMoniker": "parrucchiera\\Models\\prenotazione.cs",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\prenotazione.cs",
+              "RelativeToolTip": "parrucchiera\\Models\\prenotazione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:13:59.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "parrucchieriViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
+              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
+              "RelativeToolTip": "parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:05:34.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataOra.cshtml",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\DataOra.cshtml",
+              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\DataOra.cshtml",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\DataOra.cshtml",
+              "RelativeToolTip": "parrucchiera\\Views\\Home\\DataOra.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T07:38:15.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Servizi.cshtml",
+              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Servizi.cshtml",
+              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Servizi.cshtml",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Servizi.cshtml",
+              "RelativeToolTip": "parrucchiera\\Views\\Home\\Servizi.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T13:07:55.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appuntamento.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\appuntamento.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\appuntamento.cshtml",
@@ -323,14 +348,11 @@
               "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-11T13:37:25.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "parrucchiera\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "prenotazione.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\prenotazione.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\prenotazione.cshtml",
@@ -343,93 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appuntamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T13:37:25.996Z",
-              "DocumentIndex": 11,
-              "Title": "prenotazioneViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
-              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
-              "RelativeToolTip": "parrucchiera\\viewmodels\\prenotazioneViewModels.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:12:08.929Z",
-              "DocumentIndex": 2,
-              "Title": "appuntamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\appuntamento.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T13:37:25.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "parrucchieriViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
-              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
-              "RelativeToolTip": "parrucchiera\\viewmodels\\parrucchieriViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:05:34.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Storia.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Storia.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Storia.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Storia.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\Storia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:21:47.703Z",
-              "EditorCaption": ""
-              "DocumentIndex": 12,
-              "Title": "SQLData.cs",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Data\\SQLData.cs",
-              "RelativeDocumentMoniker": "parrucchiera\\Data\\SQLData.cs",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Data\\SQLData.cs",
-              "RelativeToolTip": "parrucchiera\\Data\\SQLData.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowDIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:28:02.096Z"
-              "DocumentIndex": 8,
-              "Title": "Storia.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Storia.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Storia.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Storia.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Home\\Storia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:21:47.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "serviziViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziViewModels.cs",
-              "RelativeDocumentMoniker": "parrucchiera\\viewmodels\\serviziViewModels.cs",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\viewmodels\\serviziViewModels.cs",
-              "RelativeToolTip": "parrucchiera\\viewmodels\\serviziViewModels.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:47:03.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "parrucchiera\\Models\\ErrorViewModel.cs",
@@ -441,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "servizi.cs",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Models\\servizi.cs",
               "RelativeDocumentMoniker": "parrucchiera\\Models\\servizi.cs",
@@ -453,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
@@ -465,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "parrucchiera\\wwwroot\\css\\site.css",
@@ -477,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Storia.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Home\\Storia.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Home\\Storia.cshtml",
@@ -489,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "parrucchiera",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\parrucchiera.csproj",
               "RelativeDocumentMoniker": "parrucchiera\\parrucchiera.csproj",
@@ -512,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Program.cs",
               "RelativeDocumentMoniker": "parrucchiera\\Program.cs",
@@ -524,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -533,30 +469,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-17T08:01:02.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T07:15:26.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "parrucchiera\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\gestionale parruchiere\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T07:15:24.861Z"
             },
             {
               "$type": "Document",

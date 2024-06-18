@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using parrucchiera.viewmodels;
+using System.Security.Cryptography.X509Certificates;
 namespace parrucchiera.Data
 {
     public class SQLData
@@ -45,12 +46,12 @@ SELECT * FROM Parrucchieri";
 				string query = @"
 INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare)";
 				var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
-        public void CreaParrucchiere(parrucchieri parrucchiere)
+               void CreaParrucchiere(parrucchieri parrucchiere)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
                 string query = @"
-INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare,'''')";
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare,'avatar7.png')";
                 var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
 
 
@@ -60,5 +61,5 @@ INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare,'''')";
 	}
             }
         }
-    }
-}
+    
+
