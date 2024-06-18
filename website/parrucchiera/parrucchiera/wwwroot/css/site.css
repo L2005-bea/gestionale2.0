@@ -1,76 +1,77 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
-
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     margin-bottom: 60px;
-    background-color:pink;
-   text-align: center;
+    background-color: pink;
+    text-align: center;
 }
 
-.titoli {text-align: center;
-    color:blue;
-    font-style:italic;
-
+.titoli {
+    text-align: center;
+    color: blue;
+    font-style: italic;
 }
+
 .titolo {
     color: blue;
     font-style: italic;
-    .custom-card {
+}
+
+.custom-card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     max-width: 200px;
     background-color: white;
     margin: 10px;
-    text-align:center;
+    text-align: center;
 }
 
 .custom-card-image {
     height: 300px;
-    //or however you want it width:auto;
-    //so that the image ratio stays the same
 }
-    /* On mouse-over, add a deeper shadow */
-    .custom-card:hover {
-        box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
-    }
+/* On mouse-over, add a deeper shadow */
+.custom-card:hover {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
 
 /* Add some padding inside the card container */
 .custom-container {
     padding: 2px 2px;
 }
+
 .card-list-container {
     padding: 20px;
-    /* Padding around the container */
-    display:flex;
+    display: flex;
     text-align: justify-all;
-; /* Light background color */
     gap: 20px;
-    /* Space between cards */
-
 }
+
 .container {
     text-align: justify-all;
 }
-capelli.jpg{text-align:center;}
-.container2{text-align:right;}
-foto.jpg{text-align right;}
 
-h3{text-align:center;}
+.container2 {
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+}

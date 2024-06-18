@@ -45,9 +45,20 @@ SELECT * FROM Parrucchieri";
 				string query = @"
 INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare)";
 				var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
+        public void CreaParrucchiere(parrucchieri parrucchiere)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                string query = @"
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare,'''')";
+                var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
 
 
+    }
 			}
 		}
 	}
+            }
+        }
+    }
 }
