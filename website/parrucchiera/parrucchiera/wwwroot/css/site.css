@@ -16,7 +16,34 @@ html {
     position: relative;
     min-height: 100%;
 }
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Default to align items to the left */
+}
 
+.left-image {
+    align-self: flex-start; /* Align the first image to the left */
+}
+
+.centered-image {
+    margin: 0 auto; /* Center the second image */
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+    padding: 20px;
+}
+
+.titoli {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.disopal-1 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
 body {
     margin-bottom: 0px;
     padding:0 px 0 px;
@@ -25,11 +52,7 @@ body {
     background-size:cover;
 }
 
-.titoli {
-    text-align: center;
-    color: blue;
-    font-style: italic;
-}
+
 
 .titolo {
     color: blue;
