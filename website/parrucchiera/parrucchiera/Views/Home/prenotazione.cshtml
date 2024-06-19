@@ -17,7 +17,7 @@
 				<tr>
 					<th>
 						@Html.LabelFor(model => Model.prenotazione.appuntamento_Data_tempo)
-						@Html.EditorFor(model => Model.prenotazione.appuntamento_Data_tempo, new { @type = "date" })
+						@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
 					</th>
 					<th>
 						@Html.LabelFor(model => Model.prenotazione.parrucchieraID)
