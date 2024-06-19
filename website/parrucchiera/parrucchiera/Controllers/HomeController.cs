@@ -42,6 +42,20 @@ namespace parrucchiera.Controllers
 
 			return View();
 		}
+		public IActionResult Cliente(cliente cliente)
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult cliente(cliente cliente)
+		{
+			SQLData db = new SQLData();
+
+            db.CreaPrenotazione(cliente);
+			return View();
+		}
+
 
 		public IActionResult Servizi()
         {

@@ -69,6 +69,10 @@ INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'avatar7.png')"
 			}
 		}
 
+		internal void CreaPrenotazione(cliente cliente)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
 
