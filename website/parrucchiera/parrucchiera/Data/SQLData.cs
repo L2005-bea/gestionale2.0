@@ -55,23 +55,23 @@ SELECT * FROM Appuntamento";
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{
-				string query = @"
-INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare)";
-				var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
-               void CreaParrucchiere(parrucchieri parrucchiere)
-        {
-            using (var connection = new SqlConnection(_connectionString))
-            {
                 string query = @"
-INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@cellulare,'avatar7.png')";
-                var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, cellulare = parrucchiere.telefono });
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'avatar7.png')";
+                var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, telefono = parrucchiere.telefono, codice_immaggine = parrucchiere.codice_immagine });
+                void CreaParrucchiere(parrucchieri parrucchiere)
+                {
+                    using (var connection = new SqlConnection(_connectionString))
+                    {
+                        string query = @"
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'avatar7.png')";
+                        var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, telefono = parrucchiere.telefono, codice_immaggine = parrucchiere.codice_immagine });
 
 
-    }
-			}
-		}
-	}
+                    }
+                }
             }
         }
-    
+    }
+}
+
 
