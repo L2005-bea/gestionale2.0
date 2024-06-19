@@ -11,8 +11,8 @@ values
 
 INSERT INTO parrucchieri (nome, cognome, email, telefono, codice_immagine)
 VALUES 
-('giacomo','marchesi','napoli@gg', '33836760','avatar1.png'),
-('sabaku','maiku', 'ksksksks@ls','33988973','avatar2.png'),
+('alice','marchesi','napoli@email.com', '33836760','avatar1.png'),
+('lara','deserto', 'sabaku@razzi.it','33988973','avatar2.png'),
 ('Luca', 'Bianchi', 'luca.bianchi@email.com', '3802468112','avatar3.png'),
 ( 'Anna', 'Neri', 'anna.neri@email.com', '3661122334','avatar4.png'),
 ('Marco', 'Gialli', 'marco.gialli@email.com', '3456789012','avatar5.png'),
