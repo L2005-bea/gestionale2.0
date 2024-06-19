@@ -1,7 +1,7 @@
 insert into servizi
 values 
-('acconciatura','sabaku',50),
-('acconciatura','maiku',20),
+('Coroncine intrecciate ','Capelli intrecciati e avvolti intorno alla testa, creando un effetto a corona',50),
+('Raccolti','Capelli acconciati, lontano dal collo, spesso in disegni intricati, adatti per eventi formali.',20),
  ('Taglio corto', 'Taglio di capelli corto alla moda', 30),
   ( 'Colore Balayage', 'Balayage per un look naturale e luminoso', 50),
   ( 'Trecce africane', 'Acconciatura con trecce a cornrows', 60),
