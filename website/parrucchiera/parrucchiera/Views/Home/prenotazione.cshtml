@@ -1,4 +1,4 @@
-﻿@@{
+﻿@{
 
     @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
@@ -8,11 +8,26 @@
     <h1>Prendi una prenotazione subito!</h1>
     <h2>Scegli il tuo orario</h2>
     <div>
-        @using (Html.BeginForm("CreaAppuntamento", "Home", FormMethod.Post))
-        {
-         
-            <input id="appuntamento" type="submit" value="Save" />
-        }
+		@using (Html.BeginForm("prenotazioni", "Home", FormMethod.Post))
+		{
+			<p>
 
-
+			</p>
+			<table class="table">
+				<tr>
+					<th>
+						@Html.LabelFor(model => Model.prenotazione.appuntamento_Data_tempo)
+						@Html.EditorFor(model => Model.prenotazione.appuntamento_Data_tempo, new { @type = "date" })
+					</th>
+					<th>
+						@Html.LabelFor(model => Model.prenotazione.parrucchieraID)
+						@Html.EditorFor(model => Model.prenotazione.parrucchieraID)
+					</th>
+				</tr>
+			</table>
+			<p>
+				<input id="appuntamento" type="submit" value="Save" />
+			</p>
+		}
     </div>
+</div>

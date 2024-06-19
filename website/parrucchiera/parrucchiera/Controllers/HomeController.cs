@@ -30,12 +30,20 @@ namespace parrucchiera.Controllers
         }
         public IActionResult prenotazioni()
         {
-            List<prenotazione> lista_di_prenotazione = new List<prenotazione>();
-            SQLData db = new SQLData();
-            lista_di_prenotazione = db.GetCaricaprenotazione();
-            return View(new PrenotazioneViewModels(lista_di_prenotazione));
+            return View();
         }
-        public IActionResult Servizi()
+
+		[HttpPost]
+		public IActionResult prenotazioni(prenotazione prenotazione)
+		{
+			SQLData db = new SQLData();
+
+			db.CreaPrenotazione(prenotazione);
+
+			return View();
+		}
+
+		public IActionResult Servizi()
         {
             List<servizi> lista_di_servizi = new List<servizi>();
             SQLData db = new SQLData();
