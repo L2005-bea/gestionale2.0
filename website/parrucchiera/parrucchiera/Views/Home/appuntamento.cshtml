@@ -48,6 +48,7 @@
 
 		@foreach (var parrucchiere in Model.parrucchieri)
 		{
+			
 			<div class="custom-card">
 				<img src="~/images/@parrucchiere.codice_immagine" width="200" height="230" />
 				<div class="custom-container">
@@ -58,7 +59,7 @@
 				</div>
 
 				<button>
-					<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="prenotazione">prenota</a>
+					<a class="Link" href="../Home/Prenotazione?IDParrucchiere=@Model.parrucchiere.id" target="_blank">Prenota con me!</a>
 				</button>
 			</div>
 		}
