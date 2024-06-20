@@ -52,7 +52,7 @@ namespace parrucchiera.Controllers
 		{
 			SQLData db = new SQLData();
 
-            db.CreaPrenotazione(cliente);
+            db.Creacliente(cliente);
 			return View();
 		}
 

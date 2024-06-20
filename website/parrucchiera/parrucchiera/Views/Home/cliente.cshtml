@@ -1,14 +1,7 @@
 ﻿@page
 @model parrucchiera.viewmodels.clienteViewModels
-@{    ;
-    ViewData["Title"] = "cliente";
-}
-<h1>@ViewData["Title"]</h1>
-<div>    <h1>Prendi una prenotazione subito!</h1>
-    <h2>Scegli il tuo orario</h2>
-	</div>
 
-		<div> @using (Html.BeginForm("cliente", "Home", FormMethod.Post))
+	<div> @using (Html.BeginForm("cliente", "Home", FormMethod.Post))
 		{
 			<p>
 
@@ -37,8 +30,9 @@
 
 				</th>
 				</tr>
-			</table>
-			<p>
+		</table>
+	
+		 <p>
 				<input id="cliente" type="submit" value="Save" />
 
 			</p>
