@@ -146,6 +146,40 @@ h3 {
     margin: auto;
 }
 
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    width:500%;
+    height:250%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
 /* Caption text */
 .text {
     color: #f2f2f2;
@@ -153,7 +187,7 @@ h3 {
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 500%;
     text-align: center;
 }
 
@@ -168,6 +202,7 @@ h3 {
 
 /* The dots/bullets/indicators */
 .dot {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -177,9 +212,9 @@ h3 {
     transition: background-color 0.6s ease;
 }
 
-.active {
-    background-color: #717171;
-}
+    .active, .dot:hover {
+        background-color: #717171;
+    }
 
 /* Fading animation */
 .fade {
@@ -194,12 +229,5 @@ h3 {
 
     to {
         opacity: 1
-    }
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
     }
 }
