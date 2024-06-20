@@ -1,0 +1,40 @@
+﻿@page
+@model parrucchiera.viewmodels.clienteViewModels
+
+	<div> @using (Html.BeginForm("cliente", "Home", FormMethod.Post))
+		{
+			<p>
+
+			</p>
+			<table class="table">
+				<tr>
+					<th>
+						@Html.LabelFor(model => model.cliente.nome)
+						@Html.EditorFor(model => model.cliente.nome)
+					</th>
+					<th>
+						@Html.LabelFor(model => model.cliente.cognome)
+						@Html.EditorFor(model => model.cliente.cognome)
+
+					</th>
+				<th>
+					@Html.LabelFor(model => model.cliente.email)
+					@Html.EditorFor(model => model.cliente.email)
+
+				</th>
+
+				
+				<th>
+					@Html.LabelFor(model => model.cliente.ntelefono)
+					@Html.EditorFor(model => model.cliente.ntelefono)
+
+				</th>
+				</tr>
+		</table>
+	
+		 <p>
+				<input id="cliente" type="submit" value="Save" />
+
+			</p>
+	
+           }

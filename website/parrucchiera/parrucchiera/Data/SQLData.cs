@@ -24,7 +24,17 @@ SELECT * FROM Servizi";
 				return servizi;
 			}
 		}
-
+		public List<parrucchieri> GetCaricacliente()
+		{
+			using (var connection = new SqlConnection(_connectionString))
+			{
+				string query = @"
+SELECT * FROM clienti";
+				var cliente = connection.Query<parrucchieri>(query)
+							.ToList();
+				return cliente;
+			}
+		}
 		public List<parrucchieri> GetCaricaParrucchieri()
 		{
 			using (var connection = new SqlConnection(_connectionString))
@@ -69,6 +79,19 @@ INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'avatar7.png')"
 			}
 		}
 
+		public void Creacliente(cliente cliente)
+		{
+			
+				using (var connection = new SqlConnection(_connectionString))
+				{
+					string query = @"
+INSERT INTO clienti VALUES (@nome,@cognome,@email,@ntelefono)";
+					var clienti = connection.Execute(query, new { nome = cliente.nome, cognome = cliente.cognome, email = cliente.email, ntelefono = cliente.ntelefono});
+
+				}
+			
+	
+		}
 	}
 }
 
