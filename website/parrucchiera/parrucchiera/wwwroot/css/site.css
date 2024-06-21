@@ -83,18 +83,22 @@ body {
 }
 
 .card-list-container {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     text-align: justify-all;
     gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container {
     text-align: justify-all;
+
 }
 
 .container2 {
     text-align: right;
+
 }
 
 h3 {
