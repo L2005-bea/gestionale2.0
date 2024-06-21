@@ -35,6 +35,17 @@ SELECT * FROM clienti";
 				return cliente;
 			}
 		}
+		public List<clientes> GetCaricaclientes()
+		{
+			using (var connection = new SqlConnection(_connectionString))
+			{
+				string query = @"
+SELECT * FROM clienti";
+				var clientes = connection.Query<clientes>(query)
+							.ToList();
+				return clientes;
+			}
+		}
 		public List<parrucchieri> GetCaricaParrucchieri()
 		{
 			using (var connection = new SqlConnection(_connectionString))

@@ -1,5 +1,5 @@
 ﻿@{
-
+	
     @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
 }
@@ -16,18 +16,30 @@
 			<table class="table">
 				<tr>
 					<th>
-						@Html.LabelFor(model => Model.prenotazione.appuntamento_Data_tempo)
+						@Html.LabelFor(model => model.prenotazione.appuntamento_Data_tempo)
 						@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
 					</th>
-					<th>
-						@Html.LabelFor(model => Model.prenotazione.parrucchieraID)
-						@Html.EditorFor(model => Model.prenotazione.parrucchieraID)
-					</th>
+				
 				</tr>
 			</table>
 			<p>
 				<input id="appuntamento" type="submit" value="Save" />
 			</p>
+
 		}
+		@foreach (var clientes in Model.clientes)
+		{
+
+			<div class="col-inner">
+				<ul class="price"> </ul>
+				<b>@clientes.nome </b>
+				<i>@clientes.cognome</i>
+				<p>@clientes.ntelefono </p> 
+				<p>@clientes.email </p>
+
+			</div>
+		}
+
+
     </div>
 </div>
