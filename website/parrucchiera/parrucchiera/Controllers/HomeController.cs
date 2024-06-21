@@ -20,15 +20,8 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-        public IActionResult prenotazione()
-        {
-            return View();
-        }
+
         public IActionResult Storia()
-        {
-            return View();
-        }
-        public IActionResult Prenotazioni()
         {
             return View();
         }
@@ -42,13 +35,18 @@ namespace parrucchiera.Controllers
 
 			return View();
 		}
-		public IActionResult prenotazioni()
+		public IActionResult prenotazioni(int IDParrucchiere)
 		{
-			List<clientes> clientes = new List<clientes>();
-			List<clientes> lista_di_clientes = clientes;
-			SQLData db = new SQLData();
-			lista_di_clientes = db.GetCaricaclientes();
-			return View(new PrenotazioneViewModels(lista_di_clientes));
+			List<cliente> lista_clienti = new List<cliente>();
+            prenotazione prenotazione = new prenotazione();
+            parrucchieri parrucchiere = new parrucchieri();
+
+
+            SQLData db = new SQLData();
+            lista_clienti = db.GetCaricaListaClienti();
+            parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
+
+            return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere));
 		}
 
 		public IActionResult Cliente(cliente cliente)

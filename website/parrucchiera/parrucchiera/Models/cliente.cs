@@ -2,8 +2,6 @@
 {
 	public class cliente
 	{
-		
-		
 			public int id { get; set; }
 			public string nome { get; set; }
 			public string cognome { get; set; }

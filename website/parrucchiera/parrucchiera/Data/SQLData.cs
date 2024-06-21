@@ -35,18 +35,32 @@ SELECT * FROM clienti";
 				return cliente;
 			}
 		}
-		public List<clientes> GetCaricaclientes()
+		public List<cliente> GetCaricaListaClienti()
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{
 				string query = @"
 SELECT * FROM clienti";
-				var clientes = connection.Query<clientes>(query)
+				var cliente = connection.Query<cliente>(query)
 							.ToList();
-				return clientes;
+				return cliente;
 			}
 		}
-		public List<parrucchieri> GetCaricaParrucchieri()
+
+        public parrucchieri GetCaricaParrucchiere(int IDParrucchiere)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                string query = @"
+SELECT * FROM Parrucchieri WHERE Id = @IDParrucchiere";
+				var parrucchiere = connection.QueryFirst<parrucchieri>(query,  new { IDParrucchiere });
+                            
+                return parrucchiere;
+            }
+        }
+
+
+        public List<parrucchieri> GetCaricaParrucchieri()
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{

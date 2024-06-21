@@ -4,24 +4,18 @@ namespace parrucchiera.viewmodels
 {
 	public class PrenotazioneViewModels
 	{
-		private List<parrucchieri> lista_di_cliente2;
-		public List<clientes> lista_di_clientes;
-
+		public List<cliente> lista_clienti;
 		public prenotazione prenotazione { get; set; }
-		public clientes clientes { get; set; }
-		public PrenotazioneViewModels(prenotazione prenotazione, clientes clientes)
+
+        public parrucchieri parrucchiere { get; set; }
+
+        public PrenotazioneViewModels(List<cliente> lista_clienti, prenotazione prenotazione, parrucchieri parrucchiere)
 		{
 			this.prenotazione = prenotazione;
-			this.clientes = clientes;
-		}
+			this.lista_clienti = lista_clienti;
+            this.parrucchiere = parrucchiere;
 
-		public PrenotazioneViewModels(List<clientes> lista_di_clientes)
-		{
-			this.lista_di_clientes = lista_di_clientes;
-		}
-
-		
-	}
-
+        }
+    }
 }
 

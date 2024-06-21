@@ -7,6 +7,10 @@
 <div>
     <h1>Prendi una prenotazione subito!</h1>
     <h2>Scegli il tuo orario</h2>
+	
+	<p>
+		Stai prenotando con: @Model.parrucchiere.cognome
+	</p>
     <div>
 		@using (Html.BeginForm("prenotazioni", "Home", FormMethod.Post))
 		{
@@ -27,7 +31,7 @@
 			</p>
 
 		}
-		@foreach (var clientes in Model.clientes)
+		@foreach (var clientes in Model.lista_clienti)
 		{
 
 			<div class="col-inner">
