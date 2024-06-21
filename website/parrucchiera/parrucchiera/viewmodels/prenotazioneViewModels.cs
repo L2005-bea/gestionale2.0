@@ -11,7 +11,18 @@ namespace parrucchiera.viewmodels
             this.prenotazione = prenotazione;
         }
 
+		public class clienteViewModels
+		{
+			public cliente cliente { get; set; }
 
-    }
+			public clienteViewModels(cliente cliente)
+			{
+				this.cliente = cliente;
+			}
+
+
+		}
+
+	}
 }
 

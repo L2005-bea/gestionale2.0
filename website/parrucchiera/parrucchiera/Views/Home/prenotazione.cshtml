@@ -1,5 +1,5 @@
 ﻿@{
-
+	
     @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
 }
@@ -27,6 +27,19 @@
 			</p>
 
 		}
+		@foreach (var cliente in Model.cliente)
+		{
+
+			<div class="col-inner">
+				<ul class="price"> </ul>
+				<b>@cliente.nome </b>
+				<i>@cliente.cognome</i>
+				<p>@cliente.ntelefono </p>
+				<p>@cliente.email </p>
+
+			</div>
+		}
+
 
     </div>
 </div>
