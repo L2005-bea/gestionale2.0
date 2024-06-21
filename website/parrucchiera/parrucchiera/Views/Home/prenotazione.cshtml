@@ -16,7 +16,7 @@
 			<table class="table">
 				<tr>
 					<th>
-						@Html.LabelFor(model => Model.prenotazione.appuntamento_Data_tempo)
+						@Html.LabelFor(model => model.prenotazione.appuntamento_Data_tempo)
 						@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
 					</th>
 				
@@ -27,15 +27,15 @@
 			</p>
 
 		}
-		@foreach (var cliente in Model.cliente)
+		@foreach (var clientes in Model.clientes)
 		{
 
 			<div class="col-inner">
 				<ul class="price"> </ul>
-				<b>@cliente.nome </b>
-				<i>@cliente.cognome</i>
-				<p>@cliente.ntelefono </p>
-				<p>@cliente.email </p>
+				<b>@clientes.nome </b>
+				<i>@clientes.cognome</i>
+				<p>@clientes.ntelefono </p> 
+				<p>@clientes.email </p>
 
 			</div>
 		}

@@ -28,7 +28,7 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-        public IActionResult prenotazioni()
+        public IActionResult Prenotazioni()
         {
             return View();
         }
@@ -42,6 +42,15 @@ namespace parrucchiera.Controllers
 
 			return View();
 		}
+		public IActionResult prenotazioni()
+		{
+			List<clientes> clientes = new List<clientes>();
+			List<clientes> lista_di_clientes = clientes;
+			SQLData db = new SQLData();
+			lista_di_clientes = db.GetCaricaclientes();
+			return View(new PrenotazioneViewModels(lista_di_clientes));
+		}
+
 		public IActionResult Cliente(cliente cliente)
 		{
 			return View();
