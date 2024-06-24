@@ -71,17 +71,18 @@ SELECT * FROM Parrucchieri";
 				return parrucchieri;
 			}
 		}
-		public List<prenotazione> GetCaricaprenotazione()
+		public List<prenotazione> GetCaricaListaPrenotazioni()
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{
 				string query = @"
-SELECT * FROM Appuntamento";
+SELECT * FROM Appuntamenti";
 				var prenotazioni = connection.Query<prenotazione>(query)
 							.ToList();
 				return prenotazioni;
 			}
 		}
+
 		public void CreaPrenotazione(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
 		{
 			using (var connection = new SqlConnection(_connectionString))

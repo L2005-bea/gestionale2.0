@@ -27,7 +27,13 @@ namespace parrucchiera.Controllers
         }
 		public IActionResult completato()
 		{
-			return View();
+			List<prenotazione> lista_prenotazioni = new List<prenotazione>();
+
+			SQLData db = new SQLData();
+			lista_prenotazioni = db.GetCaricaListaPrenotazioni();
+
+            return View(new prenotazioniViewModels(lista_prenotazioni));
+
 		}
 		[HttpPost]
 		public IActionResult prenotazioni(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
@@ -43,9 +49,10 @@ namespace parrucchiera.Controllers
 			List<cliente> lista_clienti = new List<cliente>();
             prenotazione prenotazione = new prenotazione();
             parrucchieri parrucchiere = new parrucchieri();
-
+           
 
             SQLData db = new SQLData();
+           
             lista_clienti = db.GetCaricaListaClienti();
             parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
 
@@ -74,6 +81,7 @@ namespace parrucchiera.Controllers
             lista_di_servizi = db.GetCaricaServizi();
             return View(new serviziViewModels(lista_di_servizi));
         }
+
         public IActionResult Appuntamento()
         {
             List<parrucchieri> lista_di_parrucchieri = new List<parrucchieri>();
