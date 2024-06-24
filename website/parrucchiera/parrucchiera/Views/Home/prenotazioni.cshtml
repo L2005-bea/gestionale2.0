@@ -28,7 +28,8 @@
 			</table>
 			{
 				<div id="hormenu">
-					<select>
+					<select id="clienteSelect">
+						<option value="">Select a cliente</option>
 						@foreach (var cliente in Model.lista_clienti)
 						{
 							<option value="@cliente.id">@cliente.nome @cliente.cognome</option>
@@ -38,7 +39,7 @@
 
 			}
 			<p>
-				<input id="appuntamento" type="submit" value="Save" />
+				<input id="appuntamento" type="submit" value="Save" disabled/>
 
 			</p>
 			<button>
@@ -47,3 +48,22 @@
 			<img src="~/images/prenota.jpg" width="00" height="220" />
 		}
 
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
+				var selectMenu = $('#clienteSelect');
+				var submitButton = $('#appuntamento');
+
+				function checkInputs() {
+					if (dateInput.val() && selectMenu.val()) {
+						submitButton.prop('disabled', false);
+					} else {
+						submitButton.prop('disabled', true);
+					}
+				}
+
+				dateInput.on('input', checkInputs);
+				selectMenu.on('change', checkInputs);
+			});
+		</script>
