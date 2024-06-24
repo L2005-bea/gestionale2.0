@@ -1,5 +1,4 @@
 ﻿@{
-
     @model parrucchiera.viewmodels.PrenotazioneViewModels;
     ViewData["Title"] = "prenotazione";
 }
@@ -25,32 +24,31 @@
                 </tr>
             </table>
 
-            @Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "cognome"))
+            @Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "cognome"), new { id = "clienteSelect" })
 
             <p>
-                <input id="appuntamento" type="submit" value="Prenota!" />
+                <input id="appuntamento" type="submit" value="Prenota!" disabled />
             </p>
         }
 
-
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        @* 		<script>
-        $(document).ready(function () {
-        var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
-        var selectMenu = $('#clienteSelect');
-        var submitButton = $('#appuntamento');
+        <script>
+            $(document).ready(function () {
+                var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
+                var selectMenu = $('#clienteSelect');
+                var submitButton = $('#appuntamento');
 
-        function checkInputs() {
-        if (dateInput.val() && selectMenu.val()) {
-        submitButton.prop('disabled', false);
-        } else {
-        submitButton.prop('disabled', true);
-        }
-        }
+                function checkInputs() {
+                    if (dateInput.val() && selectMenu.val()) {
+                        submitButton.prop('disabled', false);
+                    } else {
+                        submitButton.prop('disabled', true);
+                    }
+                }
 
-        dateInput.on('input', checkInputs);
-        selectMenu.on('change', checkInputs);
-        });
-        </script> *@
+                dateInput.on('input', checkInputs);
+                selectMenu.on('change', checkInputs);
+            });
+        </script>
     </div>
 </div>
