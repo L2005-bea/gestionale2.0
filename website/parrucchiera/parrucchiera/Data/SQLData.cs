@@ -82,13 +82,13 @@ SELECT * FROM Appuntamento";
 				return prenotazioni;
 			}
 		}
-		public void CreaPrenotazione(prenotazione prenotazione)
+		public void CreaPrenotazione(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
 		{
 			using (var connection = new SqlConnection(_connectionString))
 			{
 				string query = @"
-INSERT INTO [dbo].[Appuntamenti] VALUES (12,@data,@parrucchieraId)";
-				var parrucchieri = connection.Execute(query, new { data = prenotazione.appuntamento_Data_tempo, parrucchieraId = prenotazione.parrucchieraID });
+INSERT INTO [dbo].[Appuntamenti] VALUES (@SelectedClienteId,@data,@parrucchieraId)";
+				var parrucchieri = connection.Execute(query, new { data = prenotazione.appuntamento_Data_tempo, parrucchieraId = parrucchiere.id, SelectedClienteId = SelectedClienteId });
 
 			}
 		}

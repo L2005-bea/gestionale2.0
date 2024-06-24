@@ -1,4 +1,5 @@
 ﻿using parrucchiera.Models;
+using System.Collections.Generic;
 
 namespace parrucchiera.viewmodels
 {
@@ -6,16 +7,15 @@ namespace parrucchiera.viewmodels
 	{
 		public List<cliente> lista_clienti;
 		public prenotazione prenotazione { get; set; }
+		public parrucchieri parrucchiere { get; set; }
 
-        public parrucchieri parrucchiere { get; set; }
+		public int SelectedClienteId { get; set; }
 
-        public PrenotazioneViewModels(List<cliente> lista_clienti, prenotazione prenotazione, parrucchieri parrucchiere)
+		public PrenotazioneViewModels(List<cliente> lista_clienti, prenotazione prenotazione, parrucchieri parrucchiere)
 		{
 			this.prenotazione = prenotazione;
 			this.lista_clienti = lista_clienti;
-            this.parrucchiere = parrucchiere;
-
-        }
-    }
+			this.parrucchiere = parrucchiere;
+		}
+	}
 }
-

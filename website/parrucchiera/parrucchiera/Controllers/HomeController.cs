@@ -25,15 +25,18 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-
+		public IActionResult completato()
+		{
+			return View();
+		}
 		[HttpPost]
-		public IActionResult prenotazioni(prenotazione prenotazione, int IDParrucchiere)
+		public IActionResult prenotazioni(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
 		{
 			SQLData db = new SQLData();
 
-			db.CreaPrenotazione(prenotazione);
+			db.CreaPrenotazione(prenotazione, SelectedClienteId, parrucchiere);
 
-			return View();
+			return RedirectToAction("Completato", "Home");
 		}
 		public IActionResult prenotazioni(int IDParrucchiere)
 		{
