@@ -31,7 +31,7 @@
 					<select>
 						@foreach (var cliente in Model.lista_clienti)
 						{
-							<option value="@cliente.ntelefono">@cliente.nome @cliente.cognome</option>
+							<option value="@cliente.id">@cliente.nome @cliente.cognome</option>
 						}
 					</select>
 				</div>
@@ -39,7 +39,11 @@
 			}
 			<p>
 				<input id="appuntamento" type="submit" value="Save" />
-			</p>
 
+			</p>
+			<button>
+				<a class="Link" href="../Home/Completato" target="_blank">Prenota con me!</a>
+			</button>
+			<img src="~/images/prenota.jpg" width="00" height="220" />
 		}
 

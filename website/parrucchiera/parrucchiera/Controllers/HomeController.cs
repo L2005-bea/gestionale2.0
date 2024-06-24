@@ -27,7 +27,7 @@ namespace parrucchiera.Controllers
         }
 
 		[HttpPost]
-		public IActionResult prenotazioni(prenotazione prenotazione)
+		public IActionResult prenotazioni(prenotazione prenotazione, int IDParrucchiere)
 		{
 			SQLData db = new SQLData();
 
