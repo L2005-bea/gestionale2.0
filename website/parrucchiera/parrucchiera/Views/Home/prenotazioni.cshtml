@@ -26,24 +26,20 @@
 				
 				</tr>
 			</table>
+			{
+				<div id="hormenu">
+					<select>
+						@foreach (var cliente in Model.lista_clienti)
+						{
+							<option value="@cliente.ntelefono">@cliente.nome @cliente.cognome</option>
+						}
+					</select>
+				</div>
+
+			}
 			<p>
 				<input id="appuntamento" type="submit" value="Save" />
 			</p>
 
 		}
-		@foreach (var clientes in Model.lista_clienti)
-		{
 
-			<div class="col-inner">
-				<ul class="price"> </ul>
-				<b>@clientes.nome </b>
-				<i>@clientes.cognome</i>
-				<p>@clientes.ntelefono </p> 
-				<p>@clientes.email </p>
-
-			</div>
-		}
-
-
-    </div>
-</div>
