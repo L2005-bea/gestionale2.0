@@ -76,7 +76,17 @@ SELECT * FROM Parrucchieri";
 			using (var connection = new SqlConnection(_connectionString))
 			{
 				string query = @"
-SELECT * FROM Appuntamenti";
+SELECT  a.[Id]
+      ,[clienteID]
+      ,[appuntamento_Data_tempo]
+      ,[parrucchieraID]
+	  , [cliente]= c.nome +' '+ c.cognome
+	  , [parrucchiere]= p.nome +' '+ p.cognome
+  FROM [Parrucchiera].[dbo].[Appuntamenti] a
+
+  
+  inner join dbo.parrucchieri p on p.Id = a.parrucchieraID
+  inner join dbo.clienti c on c.Id = a.clienteID";
 				var prenotazioni = connection.Query<prenotazione>(query)
 							.ToList();
 				return prenotazioni;
