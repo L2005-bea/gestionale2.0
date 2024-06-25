@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|solutionrelative:parrucchiera\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBCAD79-C456-4E36-81FE-B4C0592D7377}|parrucchiera\\parrucchiera.csproj|c:\\users\\stage\\desktop\\gestionale2.0\\website\\parrucchiera\\parrucchiera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -141,7 +141,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,13 +230,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "parrucchiera\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADwAAAAtAAAA",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "parrucchiera\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T12:19:30.839Z",
               "EditorCaption": ""
@@ -267,13 +267,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "parrucchiera\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "parrucchiera\\wwwroot\\css\\site.css*",
-              "ViewState": "AQIAAF4BAAAAAAAAAAAYwHYBAAAAAAAA",
+              "ToolTip": "C:\\Users\\stage\\Desktop\\Gestionale2.0\\website\\parrucchiera\\parrucchiera\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "parrucchiera\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAYwGYBAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-14T08:40:32.099Z",
               "EditorCaption": ""
