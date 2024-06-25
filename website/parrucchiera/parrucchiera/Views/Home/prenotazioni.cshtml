@@ -1,54 +1,71 @@
 ﻿@{
-    @model parrucchiera.viewmodels.PrenotazioneViewModels;
-    ViewData["Title"] = "prenotazione";
+	@model parrucchiera.viewmodels.PrenotazioneViewModels;
+	ViewData["Title"] = "prenotazione";
 }
 <h1>@ViewData["Title"]</h1>
 <div>
-    <h1>Prendi una prenotazione subito!</h1>
-    <h2>Scegli il tuo orario</h2>
+	<h1>Prendi una prenotazione subito!</h1>
+	<h2>Scegli il tuo orario</h2>
 
-    <p>
-        Stai prenotando con: @Model.parrucchiere.cognome
-    </p>
-    <div>
-        @using (Html.BeginForm("prenotazioni", "Home", FormMethod.Post))
-        {
-            @Html.HiddenFor(model => model.parrucchiere.id)
 
-            <table class="table">
-                <tr>
-                    <th>
-                        @Html.LabelFor(model => model.prenotazione.appuntamento_Data_tempo)
-                        @Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
-                    </th>
-                </tr>
-            </table>
+	<div class="prenotazionecontainer">
+		<div>
+			<p class="left-text">Stai prenotando con</p>
+			<div class="custom-card">
+				<img src="~/images/@Model.parrucchiere.codice_immagine" width="200" height="230" />
+				<div class="custom-container">
+					<h4><b>@Model.parrucchiere.nome @Model.parrucchiere.cognome</b></h4>
+					<p>parrucchiere</p>
+					<p>@Model.parrucchiere.email</p>
+					<p>@Model.parrucchiere.telefono</p>
+				</div>
 
-            @Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "cognome"), new { id = "clienteSelect" })
 
-            <p>
-                <input id="appuntamento" type="submit" value="Prenota!" disabled />
-            </p>
-        }
+			</div>
+		</div>
+		<div>
+			@using (Html.BeginForm("prenotazioni", "Home", FormMethod.Post))
+			{
+				@Html.HiddenFor(model => model.parrucchiere.id)
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
-                var selectMenu = $('#clienteSelect');
-                var submitButton = $('#appuntamento');
+				<table class="table">
+					<tr>
+						<th>
+							Data
+							@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
+						</th>
+					</tr>
+				</table>
 
-                function checkInputs() {
-                    if (dateInput.val() && selectMenu.val()) {
-                        submitButton.prop('disabled', false);
-                    } else {
-                        submitButton.prop('disabled', true);
-                    }
-                }
+				@Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "cognome"), new { id = "clienteSelect" })
 
-                dateInput.on('input', checkInputs);
-                selectMenu.on('change', checkInputs);
-            });
-        </script>
-    </div>
+				<br />
+				<br />
+				<br />
+				<p>
+					<input id="appuntamento" type="submit" value="Prenota!" disabled />
+				</p>
+			}
+
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
+					var selectMenu = $('#clienteSelect');
+					var submitButton = $('#appuntamento');
+
+					function checkInputs() {
+						if (dateInput.val() && selectMenu.val()) {
+							submitButton.prop('disabled', false);
+						} else {
+							submitButton.prop('disabled', true);
+						}
+					}
+
+					dateInput.on('input', checkInputs);
+					selectMenu.on('change', checkInputs);
+				});
+			</script>
+		</div>
+	</div>
 </div>
