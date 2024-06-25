@@ -338,6 +338,7 @@ div#hormenu {
 
 .nav-link {
     color: darkred;
+    position:center;
 }
 
 .text-blue {
@@ -369,3 +370,5 @@ button {
     text-align:left;
 }
 .href{text-align:center;}
+
+   
