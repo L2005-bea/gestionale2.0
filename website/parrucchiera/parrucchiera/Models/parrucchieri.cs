@@ -8,6 +8,10 @@
         public string email { get; set; }
         public string telefono { get; set; }
 		public string codice_immagine { get; set; }
+		public string parrucchiere { get; set; }
+		public string cliente { get; set; }
+		
+
 	}
 
 }

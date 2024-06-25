@@ -82,9 +82,10 @@ SELECT  a.[Id]
       ,[parrucchieraID]
 	  , [cliente]= c.nome +' '+ c.cognome
 	  , [parrucchiere]= p.nome +' '+ p.cognome
+ , [parrucchiere]= p.codice_immagine
+, [parrucchiere]= p.email
+, [parrucchiere]= p.telefono
   FROM [Parrucchiera].[dbo].[Appuntamenti] a
-
-  
   inner join dbo.parrucchieri p on p.Id = a.parrucchieraID
   inner join dbo.clienti c on c.Id = a.clienteID";
 				var prenotazioni = connection.Query<prenotazione>(query)

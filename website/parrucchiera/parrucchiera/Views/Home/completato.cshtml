@@ -1,11 +1,29 @@
 ﻿@{
 	@model parrucchiera.viewmodels.prenotazioniViewModels;
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Prenotazione";
 }
 <link rel="stylesheet" type="text/css" href="site.css">
 
 <h1>La tua prenotazione è arivata a buon fine</h1>
 <h2>Scegli il tuo servizio:</h2>
+
+
+
+<div class="prenotazionecontainer">
+	<div>
+		<p class="left-text">Stai prenotando con</p>
+		<div class="custom-card">
+			<img src="~/images/@Model.prenotazione.codice_immagine" width="200" height="230" />
+			<div class="custom-container">
+				<h4><b>@Model.prenotazione.parrucchiere </b></h4>
+				<p>prenotazione</p>
+				<p>@Model.prenotazione.email</p>
+				<p>@Model.prenotazione.telefono</p>
+			</div>
+
+
+		</div>
+	</div>
 @foreach (var prenotazione in Model.lista_prenotazioni)
 {
 
