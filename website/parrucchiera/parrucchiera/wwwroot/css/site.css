@@ -55,8 +55,8 @@ body {
 
 
 .titolo {
-    color: blue;
-    font-style: italic;
+    color:blue;
+    font-style:italic;
 }
 
 .custom-card {
@@ -238,12 +238,12 @@ h3 {
 }
 
 .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
-    top:1200px;
+    top: 1200px;
     bottom: 0;
     width: 120px;
-    height:400px;
+    height: 400px;
     background-color: white;
     color: white;
     text-align: center;
