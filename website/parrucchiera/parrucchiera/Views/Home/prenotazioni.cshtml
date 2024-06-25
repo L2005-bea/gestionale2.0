@@ -36,9 +36,10 @@
 						</th>
 					</tr>
 				</table>
-
-				@Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "cognome"), new { id = "clienteSelect" })
-
+			 <th>
+				 cliente 
+				@Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "NomeCompleto"), new { id = "clienteSelect" })
+				</th>
 				<br />
 				<br />
 				<br />

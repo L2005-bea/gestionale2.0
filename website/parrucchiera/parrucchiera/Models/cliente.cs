@@ -7,5 +7,6 @@
 			public string cognome { get; set; }
 			public string email { get; set; }
 			public string ntelefono { get; set; }
-		}
+		public string NomeCompleto => $"{nome} {cognome}";
+	}
 }
