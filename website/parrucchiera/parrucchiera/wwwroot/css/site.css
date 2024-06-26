@@ -39,6 +39,7 @@ html {
 .titoli {
     font-size: 2em;
     margin-bottom: 20px;
+    color:blue;
 }
 
 .disopal-1 {
@@ -56,7 +57,7 @@ body {
 
 
 
-.titolo {
+.title {
     color: blue;
     font-style: italic;
 }
@@ -117,22 +118,21 @@ h3 {
 
 
 
-    .price .header {
+ .price .header {
         background-color: #111;
         color: white;
         font-size: 25px;
-    }
+ }
 
-    .price li {
-        border-bottom: 1px solid #eee;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .price .grey {
-        background-color: #eee;
-        font-size: 20px;
-    }
+.price li {
+     border-bottom: 1px solid #eee;
+     padding: 20px;
+     text-align: center;
+}
+.price .grey {
+   background-color: #eee;
+   font-size: 20px;
+}
 
 .button {
     background-color: green;
@@ -337,7 +337,8 @@ button {
 .left-text{
     text-align:left;
 }
-.href{text-align:center;}
+.href{text-align:center;
+}
 
    
 
