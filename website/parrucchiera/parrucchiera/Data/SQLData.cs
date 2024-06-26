@@ -84,6 +84,7 @@ SELECT
     ,[parrucchieraID]
 	, [cliente]= c.nome +' '+ c.cognome
 	, [parrucchiere]= p.nome +' '+ p.cognome
+,    [parrucchiere]= p.codice_immagine
 FROM 
     [dbo].[Appuntamenti] a
     inner join dbo.parrucchieri p on p.Id = a.parrucchieraID
