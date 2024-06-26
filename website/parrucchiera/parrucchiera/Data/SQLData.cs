@@ -1,6 +1,7 @@
 ﻿using parrucchiera.Models;
 using System.Data.SqlClient;
 using Dapper;
+using parrucchiera.viewmodels;
 
 namespace parrucchiera.Data
 {
@@ -91,6 +92,28 @@ SELECT  a.[Id]
 				var prenotazioni = connection.Query<prenotazione>(query)
 							.ToList();
 				return prenotazioni;
+			}
+		}
+		public completatoViewModels GetCaricacompletato()
+		{
+			using (var connection = new SqlConnection(_connectionString))
+			{
+				string query = @"
+SELECT  a.[Id]
+      ,[clienteID]
+      ,[appuntamento_Data_tempo]
+      ,[parrucchieraID]
+	  , [cliente]= c.nome +' '+ c.cognome
+	  , [parrucchiere]= p.nome +' '+ p.cognome
+ , [parrucchiere]= p.codice_immagine
+, [parrucchiere]= p.email
+, [parrucchiere]= p.telefono
+  FROM [Parrucchiera].[dbo].[Appuntamenti] a
+  inner join dbo.parrucchieri p on p.Id = a.parrucchieraID
+  inner join dbo.clienti c on c.Id = a.clienteID";
+				var completato = connection.Query<completato>(query)
+							.ToList();
+				return completato;
 			}
 		}
 

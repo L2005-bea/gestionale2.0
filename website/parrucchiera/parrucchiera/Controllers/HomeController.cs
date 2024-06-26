@@ -63,7 +63,25 @@ namespace parrucchiera.Controllers
 
 			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere, telefono, email,codice_immagine));
 		}
+		public IActionResult completato(int IDParrucchiere)
+		{
+			List<cliente> lista_clienti = new List<cliente>();
+			prenotazione prenotazione = new prenotazione();
+			parrucchieri parrucchiere = new parrucchieri();
+			parrucchieri telefono = new parrucchieri();
+			parrucchieri email = new parrucchieri();
+			parrucchieri codice_immagine = new parrucchieri();
 
+
+			SQLData db = new SQLData();
+
+			lista_clienti = db.GetCaricaListaClienti();
+			parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
+
+
+
+			return View(new completatoViewModels(lista_clienti, prenotazione, parrucchiere, telefono, email, codice_immagine));
+		}
 		public IActionResult Cliente(cliente cliente)
 		{
 			return View();
