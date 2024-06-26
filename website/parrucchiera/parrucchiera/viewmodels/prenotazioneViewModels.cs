@@ -1,6 +1,5 @@
 ﻿using parrucchiera.Models;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+
 
 namespace parrucchiera.viewmodels
 {
@@ -24,7 +23,7 @@ namespace parrucchiera.viewmodels
 			this.telefono = telefono;
 			this.email = email;
 			this.codice_immagine = codice_immagine;
-
+			
 
 	}
 	}

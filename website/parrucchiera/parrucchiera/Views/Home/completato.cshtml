@@ -1,6 +1,7 @@
 ﻿@{
-	@model parrucchiera.viewmodels.prenotazioniViewModels;
-    ViewData["Title"] = "Prenotazione";
+	
+    ViewData ["Title"] = "Prenotazione";
+	@model parrucchiera.viewmodels.PrenotazioneViewModels
 }
 <link rel="stylesheet" type="text/css" href="site.css">
 
@@ -24,13 +25,5 @@
 
 		</div>
 	</div>
-@foreach (var prenotazione in Model.lista_prenotazioni)
-{
-
-	<div class="col-inner">
-		<ul class="price"> </ul>
-		<b>@prenotazione.cliente </b>
-		<i>@prenotazione.appuntamento_Data_tempo</i>
-		<p>@prenotazione.parrucchiere </p>
 
 	</div>}

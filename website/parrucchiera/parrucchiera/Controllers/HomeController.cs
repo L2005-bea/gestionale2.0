@@ -44,7 +44,7 @@ namespace parrucchiera.Controllers
 
 			return RedirectToAction("Completato", "Home");
 		}
-		public IActionResult prenotazioni(int IDParrucchiere)
+		public IActionResult Prenotazione(int IDParrucchiere)
 		{
 			List<cliente> lista_clienti = new List<cliente>();
             prenotazione prenotazione = new prenotazione();
@@ -58,6 +58,7 @@ namespace parrucchiera.Controllers
            
             lista_clienti = db.GetCaricaListaClienti();
             parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
+
 			
 
 			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere, telefono, email,codice_immagine));
