@@ -1,6 +1,6 @@
 ﻿@{
     @model parrucchiera.viewmodels.parrucchieriViewModels;
-    ViewData["Title"] = "Appuntamento";
+    ViewData["Title"] = "Parrucchieri";
 }
 <h1>@ViewData["Title"]</h1>
 <div>
@@ -8,7 +8,7 @@
     <h2>Scegli il tuo parrucchiere:</h2>
 
     @* SEZIONE CREAZIONE PARRUCCHIERE *@
-    @using (Html.BeginForm("appuntamento", "Home", FormMethod.Post))
+    @using (Html.BeginForm("Parrucchieri", "Home", FormMethod.Post))
     {
         <p>
 
@@ -36,7 +36,7 @@
         </table>
         <p>
             <button>
-                <input id="appuntamento" type="submit" value="Save" />
+                <input id="Parrucchieri" type="submit" value="Save" />
             </button>
 
         </p>

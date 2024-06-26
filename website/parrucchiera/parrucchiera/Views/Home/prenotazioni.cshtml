@@ -16,7 +16,8 @@
         {
             <div class="col-inner">
                 Il cliente: <b>@prenotazione.cliente </b>
-                Ha prenotato con il parrucchiere: <i>@prenotazione.parrucchiere</i><br />
+                Ha prenotato con il parrucchiere: @prenotazione.parrucchiere
+                <img src="~/images/@prenotazione.parrucchiere" class="imgmiddle" width="50%" height="30%" onerror="this.onerror=null; this.src='../images/defaultavatar1.png'" />
                 Orario: <p>@prenotazione.appuntamento_Data_tempo</p>
                
             </div>

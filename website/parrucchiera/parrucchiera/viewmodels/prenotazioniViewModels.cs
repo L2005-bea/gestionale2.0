@@ -11,10 +11,13 @@ namespace parrucchiera.viewmodels
 		public parrucchieri codice_immagine { get; set; }
 		public parrucchieri telefono { get; set; }
 		public parrucchieri email { get; set; }
-		public prenotazioniViewModels(List<prenotazione> lista_prenotazioni)
+        public parrucchieri nome { get; set; }
+        public parrucchieri cognome { get; set; }
+
+        public prenotazioniViewModels(List<prenotazione> lista_prenotazioni)
         {
             this.lista_prenotazioni = lista_prenotazioni;
-
+         
 
         }
     }

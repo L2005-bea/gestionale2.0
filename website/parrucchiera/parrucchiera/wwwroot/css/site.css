@@ -167,10 +167,10 @@ h3 {
       top: 0;
   }
 
-  img {
-      vertical-align: middle;
-      width: 100%;
-  }
+.imgmiddle {
+    vertical-align: middle;
+    width: 100%;
+}
 
   .text-hover {
       color: #f2f2f2;

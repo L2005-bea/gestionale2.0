@@ -111,7 +111,7 @@ INSERT INTO [dbo].[Appuntamenti] VALUES (@SelectedClienteId,@data,@parrucchieraI
 			using (var connection = new SqlConnection(_connectionString))
 			{
 				string query = @"
-INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'avatar7.png')";
+INSERT INTO Parrucchieri VALUES (@nome,@cognome,@email,@telefono,'defaultimage.png')";
 				var parrucchieri = connection.Execute(query, new { nome = parrucchiere.nome, cognome = parrucchiere.cognome, email = parrucchiere.email, telefono = parrucchiere.telefono, codice_immaggine = parrucchiere.codice_immagine });
 
 			}
