@@ -1,0 +1,63 @@
+﻿@{
+    @model parrucchiera.viewmodels.parrucchieriViewModels;
+    ViewData["Title"] = "Appuntamento";
+}
+<h1>@ViewData["Title"]</h1>
+<div>
+    <h1>Prendi un appuntamento subito!</h1>
+    <h2>Scegli il tuo parrucchiere:</h2>
+
+    @* SEZIONE CREAZIONE PARRUCCHIERE *@
+    @using (Html.BeginForm("appuntamento", "Home", FormMethod.Post))
+    {
+        <p>
+
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.nome)
+                    @Html.EditorFor(model => Model.parrucchiere.nome)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.cognome)
+                    @Html.EditorFor(model => Model.parrucchiere.cognome)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.email)
+                    @Html.EditorFor(model => Model.parrucchiere.email)
+                </th>
+                <th>
+                    @Html.LabelFor(model => Model.parrucchiere.telefono)
+                    @Html.EditorFor(model => Model.parrucchiere.telefono)
+                </th>
+            </tr>
+
+        </table>
+        <p>
+            <button>
+                <input id="appuntamento" type="submit" value="Save" />
+            </button>
+
+        </p>
+    }
+
+    @* LISTA DELLE CARD DEI PARRUCCHIERI *@
+    <div class="card-list-container">
+        @foreach (var parrucchiere in Model.parrucchieri)
+        {
+            <div class="custom-card">
+                <img src="~/images/@parrucchiere.codice_immagine" width="200" height="230" />
+                <div class="custom-container">
+                    <h4><b>@parrucchiere.nome @parrucchiere.cognome</b></h4>
+                    <p>parrucchiere</p>
+                    <p>@parrucchiere.email</p>
+                    <p>@parrucchiere.telefono</p>
+                </div>
+                <button>
+                    <a class="appuntamento-button" href="../Home/Prenotazione?IDParrucchiere=@parrucchiere.id" target="_blank">Prenota con me!</a>
+                </button>
+            </div>
+        }
+    </div>
+</div>

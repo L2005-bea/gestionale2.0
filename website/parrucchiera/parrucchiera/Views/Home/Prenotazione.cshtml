@@ -1,0 +1,72 @@
+﻿@{
+	@model parrucchiera.viewmodels.PrenotazioneViewModels;
+	ViewData["Title"] = "prenotazione";
+}
+<h1>@ViewData["Title"]</h1>
+<div>
+	<h1>Prendi una prenotazione subito!</h1>
+	<h2>Scegli il tuo orario</h2>
+
+
+	<div class="prenotazionecontainer">
+		<div>
+			<p class="left-text">Stai prenotando con</p>
+			<div class="custom-card">
+				<img src="~/images/@Model.parrucchiere.codice_immagine" width="200" height="230" />
+				<div class="custom-container">
+					<h4><b>@Model.parrucchiere.nome @Model.parrucchiere.cognome</b></h4>
+					<p>parrucchiere</p>
+					<p>@Model.parrucchiere.email</p>
+					<p>@Model.parrucchiere.telefono</p>
+				</div>
+
+
+			</div>
+		</div>
+		<div>
+			@using (Html.BeginForm("prenotazioni", "Home", FormMethod.Post))
+			{
+				@Html.HiddenFor(model => model.parrucchiere.id)
+
+				<table class="table">
+					<tr>
+						<th>
+							Data
+							@Html.EditorFor(model => model.prenotazione.appuntamento_Data_tempo, "Date")
+						</th>
+					</tr>
+				</table>
+			 <th>
+				 cliente 
+				@Html.DropDownListFor(m => m.SelectedClienteId, new SelectList(Model.lista_clienti, "id", "NomeCompleto"), new { id = "clienteSelect" })
+				</th>
+				<br />
+				<br />
+				<br />
+				<p>
+					<input id="appuntamento" type="submit" value="Prenota!" disabled />
+				</p>
+			}
+
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					var dateInput = $('input[name="prenotazione.appuntamento_Data_tempo"]');
+					var selectMenu = $('#clienteSelect');
+					var submitButton = $('#appuntamento');
+
+					function checkInputs() {
+						if (dateInput.val() && selectMenu.val()) {
+							submitButton.prop('disabled', false);
+						} else {
+							submitButton.prop('disabled', true);
+						}
+					}
+
+					dateInput.on('input', checkInputs);
+					selectMenu.on('change', checkInputs);
+				});
+			</script>
+		</div>
+	</div>
+</div>

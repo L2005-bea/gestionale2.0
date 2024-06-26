@@ -25,64 +25,48 @@ namespace parrucchiera.Controllers
         {
             return View();
         }
-		public IActionResult completato()
-		{
-			List<prenotazione> lista_prenotazioni = new List<prenotazione>();
-
-			SQLData db = new SQLData();
-			lista_prenotazioni = db.GetCaricaListaPrenotazioni();
-
-            return View(new prenotazioniViewModels(lista_prenotazioni));
-
-		}
-		[HttpPost]
-		public IActionResult Prenotazioni(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
+        /*------------------------------------------------------------------*/
+        /* GESTIONE DELLA PRENOTAZIONE CON DATI SU CHI PRENOTA E CON CHI E DATA. CON HTTP POST GESTIAMO L'INSERIMENTO 
+         * DI UNA NUOVA PRENOTAZIONE*/
+        [HttpPost]
+		public IActionResult Prenotazione(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
 		{
 			SQLData db = new SQLData();
 
 			db.CreaPrenotazione(prenotazione, SelectedClienteId, parrucchiere);
 
-			return RedirectToAction("Completato", "Home");
+			return RedirectToAction("Prenotazioni", "Home");
 		}
-		public IActionResult Prenotazioni(int IDParrucchiere)
+		public IActionResult Prenotazione(int IDParrucchiere)
 		{
 			List<cliente> lista_clienti = new List<cliente>();
             prenotazione prenotazione = new prenotazione();
             parrucchieri parrucchiere = new parrucchieri();
-            parrucchieri telefono = new parrucchieri();
-            parrucchieri email = new parrucchieri();
-            parrucchieri codice_immagine = new parrucchieri();
-           
-
+          
             SQLData db = new SQLData();
            
             lista_clienti = db.GetCaricaListaClienti();
             parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
 
-			
-
-			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere, telefono, email,codice_immagine));
+			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere));
 		}
-		public IActionResult completato(int IDParrucchiere)
-		{
-			List<cliente> lista_clienti = new List<cliente>();
-			prenotazione prenotazione = new prenotazione();
-			parrucchieri parrucchiere = new parrucchieri();
-			parrucchieri telefono = new parrucchieri();
-			parrucchieri email = new parrucchieri();
-			parrucchieri codice_immagine = new parrucchieri();
+        /*------------------------------------------------------------------*/
+
+        public IActionResult Prenotazioni()
+        {
+            List<prenotazione> lista_prenotazioni = new List<prenotazione>();
+
+            SQLData db = new SQLData();
+            lista_prenotazioni = db.GetCaricaListaPrenotazioni();
+
+            return View(new prenotazioniViewModels(lista_prenotazioni));
+
+        }
 
 
-			SQLData db = new SQLData();
-
-			lista_clienti = db.GetCaricaListaClienti();
-			parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
-
-
-
-			return View(new completatoViewModels(lista_clienti, prenotazione, parrucchiere, telefono, email, codice_immagine));
-		}
-		public IActionResult Cliente(cliente cliente)
+        /*------------------------------------------------------------------*/
+        /* GESTIONE DEI CLIENTI, CREAZIONE + LISTA */
+        public IActionResult Cliente(cliente cliente)
 		{
 			return View();
 		}
@@ -95,17 +79,19 @@ namespace parrucchiera.Controllers
             db.Creacliente(cliente);
 			return View();
 		}
+        /*------------------------------------------------------------------*/
 
-
-		public IActionResult Servizi()
+        /* CARICAMENTO DELLA LISTA DEI SERVIZI */
+        public IActionResult Servizi()
         {
             List<servizi> lista_di_servizi = new List<servizi>();
             SQLData db = new SQLData();
             lista_di_servizi = db.GetCaricaServizi();
             return View(new serviziViewModels(lista_di_servizi));
         }
-
-        public IActionResult Appuntamento()
+        /*------------------------------------------------------------------*/
+        /*LISTA DEI PARRUCCHIERI E GESTIONE DELLA CREAZIONE IN POST DI UN NUOVO PARRUCCHIERE */
+        public IActionResult Parrucchieri()
         {
             List<parrucchieri> lista_di_parrucchieri = new List<parrucchieri>();
             SQLData db = new SQLData();
@@ -114,7 +100,7 @@ namespace parrucchiera.Controllers
         }
 
         [HttpPost]
-        public IActionResult appuntamento(parrucchieri parrucchiere)
+        public IActionResult Parrucchieri(parrucchieri parrucchiere)
       {
             SQLData db = new SQLData();
 
@@ -124,6 +110,7 @@ namespace parrucchiera.Controllers
             lista_di_parrucchieri = db.GetCaricaParrucchieri();
             return View(new parrucchieriViewModels(lista_di_parrucchieri));
         }
+        /*------------------------------------------------------------------*/
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

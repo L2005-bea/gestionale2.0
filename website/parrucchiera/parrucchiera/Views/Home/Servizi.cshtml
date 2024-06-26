@@ -1,24 +1,18 @@
 ﻿@{
-	@model parrucchiera.viewmodels.serviziViewModels;
-	ViewData["Title"] = "Servizi";
+    @model parrucchiera.viewmodels.serviziViewModels;
+    ViewData["Title"] = "Servizi";
 }
 <h1>@ViewData["Title"]</h1>
-@* <link rel="stylesheet" type="text/css" href="site.css"> *@
 <div>
-
-	<h2>Proponiamo differenti servizi, per occuparci della tua bellezza nella maniera più olistica possibile.</h2>
-
-
+    <h2>Proponiamo differenti servizi, per occuparci della tua bellezza nella maniera più olistica possibile.</h2>
 </div>
 <h2>Scegli il tuo servizio:</h2>
 @foreach (var servizi in Model.servizi)
 {
-
-	<div class="col-inner">
-		<ul class="price"> </ul>
-		<b>@servizi.nome_servizio </b>
-		<i>@servizi.descrizione_servizio</i>
-		<p>@servizi.prezzo €</p>
-
-	</div>
+    <div class="col-inner">
+        <ul class="price"> </ul>
+        <b>@servizi.nome_servizio </b>
+        <i>@servizi.descrizione_servizio</i>
+        <p>@servizi.prezzo €</p>
+    </div>
 }
