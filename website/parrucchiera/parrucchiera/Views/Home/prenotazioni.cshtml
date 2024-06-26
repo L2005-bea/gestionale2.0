@@ -1,7 +1,7 @@
 ﻿@{
 
-    ViewData["Title"] = "Prenotazione";
-    @model parrucchiera.viewmodels.prenotazioniViewModels
+	ViewData["Title"] = "Prenotazione";
+	@model parrucchiera.viewmodels.prenotazioniViewModels
 
 }
 <link rel="stylesheet" type="text/css" href="site.css">
@@ -11,16 +11,22 @@
 
 
 <div class="prenotazionecontainer">
-    <div>
-        @foreach (var prenotazione in Model.lista_prenotazioni)
-        {
-            <div class="col-inner">
-                Il cliente: <b>@prenotazione.cliente </b>
-                Ha prenotato con il parrucchiere: @prenotazione.parrucchiere
-                <img src="~/images/@prenotazione.parrucchiere" class="imgmiddle" width="50%" height="30%" onerror="this.onerror=null; this.src='../images/defaultavatar1.png'" />
-                Orario: <p>@prenotazione.appuntamento_Data_tempo</p>
-               
-            </div>
-        }
-    </div>
+	<div>
+		@foreach (var prenotazione in Model.lista_prenotazioni)
+		{
+			<div class="prenotazioni-container-list">
+				<div>
+					<img src="~/images/@prenotazione.parrucchiere" class="imgmiddle" width="50%" height="30%" onerror="this.onerror=null; this.src='../images/defaultavatar1.png'" />
+				</div>
+				<div class="col-inner">
+					Il cliente: <b>@prenotazione.cliente </b>
+					Ha prenotato con il parrucchiere: @prenotazione.parrucchiere
+					
+				</div>
+				<div>
+					Orario: <p>@prenotazione.appuntamento_Data_tempo</p>
+				</div>
+			</div>
+		}
+	</div>
 </div>

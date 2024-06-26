@@ -42,16 +42,13 @@ namespace parrucchiera.Controllers
 			List<cliente> lista_clienti = new List<cliente>();
             prenotazione prenotazione = new prenotazione();
             parrucchieri parrucchiere = new parrucchieri();
-			parrucchieri codice_immagine = new parrucchieri();
-            parrucchieri nome = new parrucchieri();
-            parrucchieri cognome = new parrucchieri();
 
             SQLData db = new SQLData();
            
             lista_clienti = db.GetCaricaListaClienti();
             parrucchiere = db.GetCaricaParrucchiere(IDParrucchiere);
 
-			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere, codice_immagine,nome,cognome));
+			return View(new PrenotazioneViewModels(lista_clienti, prenotazione, parrucchiere));
 		}
         /*------------------------------------------------------------------*/
 
