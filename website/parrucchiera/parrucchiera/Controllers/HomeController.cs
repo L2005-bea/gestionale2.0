@@ -36,7 +36,7 @@ namespace parrucchiera.Controllers
 
 		}
 		[HttpPost]
-		public IActionResult prenotazioni(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
+		public IActionResult Prenotazioni(prenotazione prenotazione, int SelectedClienteId, parrucchieri parrucchiere)
 		{
 			SQLData db = new SQLData();
 
@@ -44,7 +44,7 @@ namespace parrucchiera.Controllers
 
 			return RedirectToAction("Completato", "Home");
 		}
-		public IActionResult Prenotazione(int IDParrucchiere)
+		public IActionResult Prenotazioni(int IDParrucchiere)
 		{
 			List<cliente> lista_clienti = new List<cliente>();
             prenotazione prenotazione = new prenotazione();
